@@ -1,0 +1,668 @@
+anzsco_code,anzsco_name,anzsco_name_2016,anzsco_name_2011,level,nfd
+1000,"Managers, nfd","Managers, nfd",Managers nfd,4,1
+1110,"Chief Executives, General Managers and Legislators, nfd","Chief Executives, General Managers and Legislators, nfd","Chief Executives, General Managers and Legislators nfd",4,1
+1111,Chief Executives and Managing Directors,Chief Executives and Managing Directors,Chief Executives and Managing Directors,4,0
+1112,General Managers,General Managers,General Managers,4,0
+1113,Legislators,Legislators,Legislators,4,0
+1210,"Farmers and Farm Managers, nfd","Farmers and Farm Managers, nfd",Farmers and Farm Managers nfd,4,1
+1211,Aquaculture Farmers,Aquaculture Farmers,Aquaculture Farmers,4,0
+1212,Crop Farmers,Crop Farmers,Crop Farmers,4,0
+1213,Livestock Farmers,Livestock Farmers,Livestock Farmers,4,0
+1214,Mixed Crop and Livestock Farmers,Mixed Crop and Livestock Farmers,Mixed Crop and Livestock Farmers,4,0
+1300,"Specialist Managers, nfd","Specialist Managers, nfd",Specialist Managers nfd,4,1
+1311,"Advertising, Public Relations and Sales Managers","Advertising, Public Relations and Sales Managers","Advertising, Public Relations and Sales Managers",4,0
+1320,"Business Administration Managers, nfd","Business Administration Managers, nfd",Business Administration Managers nfd,4,1
+1321,Corporate Services Managers,Corporate Services Managers,Corporate Services Managers,4,0
+1322,Finance Managers,Finance Managers,Finance Managers,4,0
+1323,Human Resource Managers,Human Resource Managers,Human Resource Managers,4,0
+1324,Policy and Planning Managers,Policy and Planning Managers,Policy and Planning Managers,4,0
+1325,Research and Development Managers,Research and Development Managers,Research and Development Managers,4,0
+1330,"Construction, Distribution and Production Managers, nfd","Construction, Distribution and Production Managers, nfd","Construction, Distribution and Production Managers nfd",4,1
+1331,Construction Managers,Construction Managers,Construction Managers,4,0
+1332,Engineering Managers,Engineering Managers,Engineering Managers,4,0
+1333,"Importers, Exporters and Wholesalers","Importers, Exporters and Wholesalers","Importers, Exporters and Wholesalers",4,0
+1334,Manufacturers,Manufacturers,Manufacturers,4,0
+1335,Production Managers,Production Managers,Production Managers,4,0
+1336,"Supply, Distribution and Procurement Managers","Supply, Distribution and Procurement Managers",Supply and Distribution Managers,4,0
+1340,"Education, Health and Welfare Services Managers, nfd","Education, Health and Welfare Services Managers, nfd","Education, Health and Welfare Services Managers nfd",4,1
+1341,Child Care Centre Managers,Child Care Centre Managers,Child Care Centre Managers,4,0
+1342,Health and Welfare Services Managers,Health and Welfare Services Managers,Health and Welfare Services Managers,4,0
+1343,School Principals,School Principals,School Principals,4,0
+1344,Other Education Managers,Other Education Managers,Other Education Managers,4,0
+1351,ICT Managers,ICT Managers,ICT Managers,4,0
+1390,"Miscellaneous Specialist Managers, nfd","Miscellaneous Specialist Managers, nfd",Miscellaneous Specialist Managers nfd,4,1
+1391,Commissioned Officers (Management),Commissioned Officers (Management),Commissioned Officers (Management),4,0
+1392,Senior Non-commissioned Defence Force Members,Senior Non-commissioned Defence Force Members,Senior Non-commissioned Defence Force Members,4,0
+1399,Other Specialist Managers,Other Specialist Managers,Other Specialist Managers,4,0
+1400,"Hospitality, Retail and Service Managers, nfd","Hospitality, Retail and Service Managers, nfd","Hospitality, Retail and Service Managers nfd",4,1
+1410,"Accommodation and Hospitality Managers, nfd","Accommodation and Hospitality Managers, nfd",Accommodation and Hospitality Managers nfd,4,1
+1411,Cafe and Restaurant Managers,Cafe and Restaurant Managers,Cafe and Restaurant Managers,4,0
+1412,Caravan Park and Camping Ground Managers,Caravan Park and Camping Ground Managers,Caravan Park and Camping Ground Managers,4,0
+1413,Hotel and Motel Managers,Hotel and Motel Managers,Hotel and Motel Managers,4,0
+1414,Licensed Club Managers,Licensed Club Managers,Licensed Club Managers,4,0
+1419,Other Accommodation and Hospitality Managers,Other Accommodation and Hospitality Managers,Other Accommodation and Hospitality Managers,4,0
+1421,Retail Managers,Retail Managers,Retail Managers,4,0
+1490,"Miscellaneous Hospitality, Retail and Service Managers, nfd","Miscellaneous Hospitality, Retail and Service Managers, nfd","Miscellaneous Hospitality, Retail and Service Managers nfd",4,1
+1491,"Amusement, Fitness and Sports Centre Managers","Amusement, Fitness and Sports Centre Managers","Amusement, Fitness and Sports Centre Managers",4,0
+1492,Call or Contact Centre and Customer Service Managers,Call or Contact Centre and Customer Service Managers,Call or Contact Centre and Customer Service Managers,4,0
+1493,Conference and Event Organisers,Conference and Event Organisers,Conference and Event Organisers,4,0
+1494,Transport Services Managers,Transport Services Managers,Transport Services Managers,4,0
+1499,"Other Hospitality, Retail and Service Managers","Other Hospitality, Retail and Service Managers","Other Hospitality, Retail and Service Managers",4,0
+2000,"Professionals, nfd","Professionals, nfd",Professionals nfd,4,1
+2100,"Arts and Media Professionals, nfd","Arts and Media Professionals, nfd",Arts and Media Professionals nfd,4,1
+2110,"Arts Professionals, nfd","Arts Professionals, nfd",Arts Professionals nfd,4,1
+2111,"Actors, Dancers and Other Entertainers","Actors, Dancers and Other Entertainers","Actors, Dancers and Other Entertainers",4,0
+2112,Music Professionals,Music Professionals,Music Professionals,4,0
+2113,Photographers,Photographers,Photographers,4,0
+2114,Visual Arts and Crafts Professionals,Visual Arts and Crafts Professionals,Visual Arts and Crafts Professionals,4,0
+2120,"Media Professionals, nfd","Media Professionals, nfd",Media Professionals nfd,4,1
+2121,"Artistic Directors, and Media Producers and Presenters","Artistic Directors, and Media Producers and Presenters","Artistic Directors, and Media Producers and Presenters",4,0
+2122,"Authors, and Book and Script Editors","Authors, and Book and Script Editors","Authors, and Book and Script Editors",4,0
+2123,"Film, Television, Radio and Stage Directors","Film, Television, Radio and Stage Directors","Film, Television, Radio and Stage Directors",4,0
+2124,Journalists and Other Writers,Journalists and Other Writers,Journalists and Other Writers,4,0
+2200,"Business, Human Resource and Marketing Professionals, nfd","Business, Human Resource and Marketing Professionals, nfd","Business, Human Resource and Marketing Professionals nfd",4,1
+2210,"Accountants, Auditors and Company Secretaries, nfd","Accountants, Auditors and Company Secretaries, nfd","Accountants, Auditors and Company Secretaries nfd",4,1
+2211,Accountants,Accountants,Accountants,4,0
+2212,"Auditors, Company Secretaries and Corporate Treasurers","Auditors, Company Secretaries and Corporate Treasurers","Auditors, Company Secretaries and Corporate Treasurers",4,0
+2220,"Financial Brokers and Dealers, and Investment Advisers, nfd","Financial Brokers and Dealers, and Investment Advisers, nfd","Financial Brokers and Dealers, and Investment Advisers nfd",4,1
+2221,Financial Brokers,Financial Brokers,Financial Brokers,4,0
+2222,Financial Dealers,Financial Dealers,Financial Dealers,4,0
+2223,Financial Investment Advisers and Managers,Financial Investment Advisers and Managers,Financial Investment Advisers and Managers,4,0
+2230,"Human Resource and Training Professionals, nfd","Human Resource and Training Professionals, nfd",Human Resource and Training Professionals nfd,4,1
+2231,Human Resource Professionals,Human Resource Professionals,Human Resource Professionals,4,0
+2232,ICT Trainers,ICT Trainers,ICT Trainers,4,0
+2233,Training and Development Professionals,Training and Development Professionals,Training and Development Professionals,4,0
+2240,"Information and Organisation Professionals, nfd","Information and Organisation Professionals, nfd",Information and Organisation Professionals nfd,4,1
+2241,"Actuaries, Mathematicians and Statisticians","Actuaries, Mathematicians and Statisticians","Actuaries, Mathematicians and Statisticians",4,0
+2242,"Archivists, Curators and Records Managers","Archivists, Curators and Records Managers","Archivists, Curators and Records Managers",4,0
+2243,Economists,Economists,Economists,4,0
+2244,Intelligence and Policy Analysts,Intelligence and Policy Analysts,Intelligence and Policy Analysts,4,0
+2245,Land Economists and Valuers,Land Economists and Valuers,Land Economists and Valuers,4,0
+2246,Librarians,Librarians,Librarians,4,0
+2247,Management and Organisation Analysts,Management and Organisation Analysts,Management and Organisation Analysts,4,0
+2249,Other Information and Organisation Professionals,Other Information and Organisation Professionals,Other Information and Organisation Professionals,4,0
+2250,"Sales, Marketing and Public Relations Professionals, nfd","Sales, Marketing and Public Relations Professionals, nfd","Sales, Marketing and Public Relations Professionals nfd",4,1
+2251,Advertising and Marketing Professionals,Advertising and Marketing Professionals,Advertising and Marketing Professionals,4,0
+2252,ICT Sales Professionals,ICT Sales Professionals,ICT Sales Professionals,4,0
+2253,Public Relations Professionals,Public Relations Professionals,Public Relations Professionals,4,0
+2254,Technical Sales Representatives,Technical Sales Representatives,Technical Sales Representatives,4,0
+2300,"Design, Engineering, Science and Transport Professionals, nfd","Design, Engineering, Science and Transport Professionals, nfd","Design, Engineering, Science and Transport Professionals nfd",4,1
+2310,"Air and Marine Transport Professionals, nfd","Air and Marine Transport Professionals, nfd",Air and Marine Transport Professionals nfd,4,1
+2311,Air Transport Professionals,Air Transport Professionals,Air Transport Professionals,4,0
+2312,Marine Transport Professionals,Marine Transport Professionals,Marine Transport Professionals,4,0
+2320,"Architects, Designers, Planners and Surveyors, nfd","Architects, Designers, Planners and Surveyors, nfd","Architects, Designers, Planners and Surveyors nfd",4,1
+2321,Architects and Landscape Architects,Architects and Landscape Architects,Architects and Landscape Architects,4,0
+2322,Surveyors and Spatial Scientists,Surveyors and Spatial Scientists,Surveyors and Spatial Scientists,4,0
+2323,"Fashion, Industrial and Jewellery Designers","Fashion, Industrial and Jewellery Designers","Fashion, Industrial and Jewellery Designers",4,0
+2324,"Graphic and Web Designers, and Illustrators","Graphic and Web Designers, and Illustrators","Graphic and Web Designers, and Illustrators",4,0
+2325,Interior Designers,Interior Designers,Interior Designers,4,0
+2326,Urban and Regional Planners,Urban and Regional Planners,Urban and Regional Planners,4,0
+2330,"Engineering Professionals, nfd","Engineering Professionals, nfd",Engineering Professionals nfd,4,1
+2331,Chemical and Materials Engineers,Chemical and Materials Engineers,Chemical and Materials Engineers,4,0
+2332,Civil Engineering Professionals,Civil Engineering Professionals,Civil Engineering Professionals,4,0
+2333,Electrical Engineers,Electrical Engineers,Electrical Engineers,4,0
+2334,Electronics Engineers,Electronics Engineers,Electronics Engineers,4,0
+2335,"Industrial, Mechanical and Production Engineers","Industrial, Mechanical and Production Engineers","Industrial, Mechanical and Production Engineers",4,0
+2336,Mining Engineers,Mining Engineers,Mining Engineers,4,0
+2339,Other Engineering Professionals,Other Engineering Professionals,Other Engineering Professionals,4,0
+2340,"Natural and Physical Science Professionals, nfd","Natural and Physical Science Professionals, nfd",Natural and Physical Science Professionals nfd,4,1
+2341,Agricultural and Forestry Scientists,Agricultural and Forestry Scientists,Agricultural and Forestry Scientists,4,0
+2342,"Chemists, and Food and Wine Scientists","Chemists, and Food and Wine Scientists","Chemists, and Food and Wine Scientists",4,0
+2343,Environmental Scientists,Environmental Scientists,Environmental Scientists,4,0
+2344,"Geologists, Geophysicists and Hydrogeologists","Geologists, Geophysicists and Hydrogeologists",Geologists and Geophysicists,4,0
+2345,Life Scientists,Life Scientists,Life Scientists,4,0
+2346,Medical Laboratory Scientists,Medical Laboratory Scientists,Medical Laboratory Scientists,4,0
+2347,Veterinarians,Veterinarians,Veterinarians,4,0
+2349,Other Natural and Physical Science Professionals,Other Natural and Physical Science Professionals,Other Natural and Physical Science Professionals,4,0
+2400,"Education Professionals, nfd","Education Professionals, nfd",Education Professionals nfd,4,1
+2410,"School Teachers, nfd","School Teachers, nfd",School Teachers nfd,4,1
+2411,Early Childhood (Pre-primary School) Teachers,Early Childhood (Pre-primary School) Teachers,Early Childhood (Pre-primary School) Teachers,4,0
+2412,Primary School Teachers,Primary School Teachers,Primary School Teachers,4,0
+2413,Middle School Teachers,Middle School Teachers (Aus) / Intermediate School Teachers (NZ),Middle School Teachers (Aus) / Intermediate School Teachers (NZ),4,0
+2414,Secondary School Teachers,Secondary School Teachers,Secondary School Teachers,4,0
+2415,Special Education Teachers,Special Education Teachers,Special Education Teachers,4,0
+2420,"Tertiary Education Teachers, nfd","Tertiary Education Teachers, nfd",Tertiary Education Teachers nfd,4,1
+2421,University Lecturers and Tutors,University Lecturers and Tutors,University Lecturers and Tutors,4,0
+2422,Vocational Education Teachers,Vocational Education Teachers (Aus) / Polytechnic Teachers (NZ),Vocational Education Teachers (Aus) / Polytechnic Teachers (NZ),4,0
+2490,"Miscellaneous Education Professionals, nfd","Miscellaneous Education Professionals, nfd",Miscellaneous Education Professionals nfd,4,1
+2491,Education Advisers and Reviewers,Education Advisers and Reviewers,Education Advisers and Reviewers,4,0
+2492,Private Tutors and Teachers,Private Tutors and Teachers,Private Tutors and Teachers,4,0
+2493,Teachers of English to Speakers of Other Languages,Teachers of English to Speakers of Other Languages,Teachers of English to Speakers of Other Languages,4,0
+2500,"Health Professionals, nfd","Health Professionals, nfd",Health Professionals nfd,4,1
+2510,"Health Diagnostic and Promotion Professionals, nfd","Health Diagnostic and Promotion Professionals, nfd",Health Diagnostic and Promotion Professionals nfd,4,1
+2511,Nutrition Professionals,Nutrition Professionals,Dietitians,4,0
+2512,Medical Imaging Professionals,Medical Imaging Professionals,Medical Imaging Professionals,4,0
+2513,Occupational and Environmental Health Professionals,Occupational and Environmental Health Professionals,Occupational and Environmental Health Professionals,4,0
+2514,Optometrists and Orthoptists,Optometrists and Orthoptists,Optometrists and Orthoptists,4,0
+2515,Pharmacists,Pharmacists,Pharmacists,4,0
+2519,Other Health Diagnostic and Promotion Professionals,Other Health Diagnostic and Promotion Professionals,Other Health Diagnostic and Promotion Professionals,4,0
+2520,"Health Therapy Professionals, nfd","Health Therapy Professionals, nfd",Health Therapy Professionals nfd,4,1
+2521,Chiropractors and Osteopaths,Chiropractors and Osteopaths,Chiropractors and Osteopaths,4,0
+2522,Complementary Health Therapists,Complementary Health Therapists,Complementary Health Therapists,4,0
+2523,Dental Practitioners,Dental Practitioners,Dental Practitioners,4,0
+2524,Occupational Therapists,Occupational Therapists,Occupational Therapists,4,0
+2525,Physiotherapists,Physiotherapists,Physiotherapists,4,0
+2526,Podiatrists,Podiatrists,Podiatrists,4,0
+2527,Audiologists and Speech Pathologists \ Therapists,Audiologists and Speech Pathologists \ Therapists,Speech Professionals and Audiologists,4,0
+2530,"Medical Practitioners, nfd","Medical Practitioners, nfd",Medical Practitioners nfd,4,1
+2531,General Practitioners and Resident Medical Officers,General Practitioners and Resident Medical Officers,Generalist Medical Practitioners,4,0
+2532,Anaesthetists,Anaesthetists,Anaesthetists,4,0
+2533,Specialist Physicians,Specialist Physicians,Specialist Physicians,4,0
+2534,Psychiatrists,Psychiatrists,Psychiatrists,4,0
+2535,Surgeons,Surgeons,Surgeons,4,0
+2539,Other Medical Practitioners,Other Medical Practitioners,Other Medical Practitioners,4,0
+2540,"Midwifery and Nursing Professionals, nfd","Midwifery and Nursing Professionals, nfd",Midwifery and Nursing Professionals nfd,4,1
+2541,Midwives,Midwives,Midwives,4,0
+2542,Nurse Educators and Researchers,Nurse Educators and Researchers,Nurse Educators and Researchers,4,0
+2543,Nurse Managers,Nurse Managers,Nurse Managers,4,0
+2544,Registered Nurses,Registered Nurses,Registered Nurses,4,0
+2600,"ICT Professionals, nfd","ICT Professionals, nfd",ICT Professionals nfd,4,1
+2610,"Business and Systems Analysts, and Programmers, nfd","Business and Systems Analysts, and Programmers, nfd","Business and Systems Analysts, and Programmers nfd",4,1
+2611,ICT Business and Systems Analysts,ICT Business and Systems Analysts,ICT Business and Systems Analysts,4,0
+2612,Multimedia Specialists and Web Developers,Multimedia Specialists and Web Developers,Multimedia Specialists and Web Developers,4,0
+2613,Software and Applications Programmers,Software and Applications Programmers,Software and Applications Programmers,4,0
+2621,"Database and Systems Administrators, and ICT Security Specialists","Database and Systems Administrators, and ICT Security Specialists","Database and Systems Administrators, and ICT Security Specialists",4,0
+2630,"ICT Network and Support Professionals, nfd","ICT Network and Support Professionals, nfd",ICT Network and Support Professionals nfd,4,1
+2631,Computer Network Professionals,Computer Network Professionals,Computer Network Professionals,4,0
+2632,ICT Support and Test Engineers,ICT Support and Test Engineers,ICT Support and Test Engineers,4,0
+2633,Telecommunications Engineering Professionals,Telecommunications Engineering Professionals,Telecommunications Engineering Professionals,4,0
+2700,"Legal, Social and Welfare Professionals, nfd","Legal, Social and Welfare Professionals, nfd","Legal, Social and Welfare Professionals nfd",4,1
+2710,"Legal Professionals, nfd","Legal Professionals, nfd",Legal Professionals nfd,4,1
+2711,Barristers,Barristers,Barristers,4,0
+2712,Judicial and Other Legal Professionals,Judicial and Other Legal Professionals,Judicial and Other Legal Professionals,4,0
+2713,Solicitors,Solicitors,Solicitors,4,0
+2720,"Social and Welfare Professionals, nfd","Social and Welfare Professionals, nfd",Social and Welfare Professionals nfd,4,1
+2721,Counsellors,Counsellors,Counsellors,4,0
+2722,Ministers of Religion,Ministers of Religion,Ministers of Religion,4,0
+2723,Psychologists,Psychologists,Psychologists,4,0
+2724,Social Professionals,Social Professionals,Social Professionals,4,0
+2725,Social Workers,Social Workers,Social Workers,4,0
+2726,"Welfare, Recreation and Community Arts Workers","Welfare, Recreation and Community Arts Workers","Welfare, Recreation and Community Arts Workers",4,0
+3000,"Technicians and Trades Workers, nfd","Technicians and Trades Workers, nfd",Technicians and Trades Workers nfd,4,1
+3100,"Engineering, ICT and Science Technicians, nfd","Engineering, ICT and Science Technicians, nfd","Engineering, ICT and Science Technicians nfd",4,1
+3110,"Agricultural, Medical and Science Technicians, nfd","Agricultural, Medical and Science Technicians, nfd","Agricultural, Medical and Science Technicians nfd",4,1
+3111,Agricultural Technicians,Agricultural Technicians,Agricultural Technicians,4,0
+3112,Medical Technicians,Medical Technicians,Medical Technicians,4,0
+3113,Primary Products Inspectors,Primary Products Inspectors,Primary Products Inspectors,4,0
+3114,Science Technicians,Science Technicians,Science Technicians,4,0
+3120,"Building and Engineering Technicians, nfd","Building and Engineering Technicians, nfd",Building and Engineering Technicians nfd,4,1
+3121,"Architectural, Building and Surveying Technicians","Architectural, Building and Surveying Technicians","Architectural, Building and Surveying Technicians",4,0
+3122,Civil Engineering Draftspersons and Technicians,Civil Engineering Draftspersons and Technicians,Civil Engineering Draftspersons and Technicians,4,0
+3123,Electrical Engineering Draftspersons and Technicians,Electrical Engineering Draftspersons and Technicians,Electrical Engineering Draftspersons and Technicians,4,0
+3124,Electronic Engineering Draftspersons and Technicians,Electronic Engineering Draftspersons and Technicians,Electronic Engineering Draftspersons and Technicians,4,0
+3125,Mechanical Engineering Draftspersons and Technicians,Mechanical Engineering Draftspersons and Technicians,Mechanical Engineering Draftspersons and Technicians,4,0
+3126,Safety Inspectors,Safety Inspectors,Safety Inspectors,4,0
+3129,Other Building and Engineering Technicians,Other Building and Engineering Technicians,Other Building and Engineering Technicians,4,0
+3130,"ICT and Telecommunications Technicians, nfd","ICT and Telecommunications Technicians, nfd",ICT and Telecommunications Technicians nfd,4,1
+3131,ICT Support Technicians,ICT Support Technicians,ICT Support Technicians,4,0
+3132,Telecommunications Technical Specialists,Telecommunications Technical Specialists,Telecommunications Technical Specialists,4,0
+3200,"Automotive and Engineering Trades Workers, nfd","Automotive and Engineering Trades Workers, nfd",Automotive and Engineering Trades Workers nfd,4,1
+3210,"Automotive Electricians and Mechanics, nfd","Automotive Electricians and Mechanics, nfd",Automotive Electricians and Mechanics nfd,4,1
+3211,Automotive Electricians,Automotive Electricians,Automotive Electricians,4,0
+3212,Motor Mechanics,Motor Mechanics,Motor Mechanics,4,0
+3220,"Fabrication Engineering Trades Workers, nfd","Fabrication Engineering Trades Workers, nfd",Fabrication Engineering Trades Workers nfd,4,1
+3221,"Metal Casting, Forging and Finishing Trades Workers","Metal Casting, Forging and Finishing Trades Workers","Metal Casting, Forging and Finishing Trades Workers",4,0
+3222,Sheetmetal Trades Workers,Sheetmetal Trades Workers,Sheetmetal Trades Workers,4,0
+3223,Structural Steel and Welding Trades Workers,Structural Steel and Welding Trades Workers,Structural Steel and Welding Trades Workers,4,0
+3230,"Mechanical Engineering Trades Workers, nfd","Mechanical Engineering Trades Workers, nfd",Mechanical Engineering Trades Workers nfd,4,1
+3231,Aircraft Maintenance Engineers,Aircraft Maintenance Engineers,Aircraft Maintenance Engineers,4,0
+3232,Metal Fitters and Machinists,Metal Fitters and Machinists,Metal Fitters and Machinists,4,0
+3233,Precision Metal Trades Workers,Precision Metal Trades Workers,Precision Metal Trades Workers,4,0
+3234,Toolmakers and Engineering Patternmakers,Toolmakers and Engineering Patternmakers,Toolmakers and Engineering Patternmakers,4,0
+3240,"Panelbeaters, and Vehicle Body Builders, Trimmers and Painters, nfd","Panelbeaters, and Vehicle Body Builders, Trimmers and Painters, nfd","Panelbeaters, and Vehicle Body Builders, Trimmers and Painters nfd",4,1
+3241,Panelbeaters,Panelbeaters,Panelbeaters,4,0
+3242,Vehicle Body Builders and Trimmers,Vehicle Body Builders and Trimmers,Vehicle Body Builders and Trimmers,4,0
+3243,Vehicle Painters,Vehicle Painters,Vehicle Painters,4,0
+3300,"Construction Trades Workers, nfd","Construction Trades Workers, nfd",Construction Trades Workers nfd,4,1
+3310,"Bricklayers, and Carpenters and Joiners, nfd","Bricklayers, and Carpenters and Joiners, nfd","Bricklayers, and Carpenters and Joiners nfd",4,1
+3311,Bricklayers and Stonemasons,Bricklayers and Stonemasons,Bricklayers and Stonemasons,4,0
+3312,Carpenters and Joiners,Carpenters and Joiners,Carpenters and Joiners,4,0
+3320,"Floor Finishers and Painting Trades Workers, nfd","Floor Finishers and Painting Trades Workers, nfd",Floor Finishers and Painting Trades Workers nfd,4,1
+3321,Floor Finishers,Floor Finishers,Floor Finishers,4,0
+3322,Painting Trades Workers,Painting Trades Workers,Painting Trades Workers,4,0
+3330,"Glaziers, Plasterers and Tilers, nfd","Glaziers, Plasterers and Tilers, nfd","Glaziers, Plasterers and Tilers nfd",4,1
+3331,Glaziers,Glaziers,Glaziers,4,0
+3332,Plasterers,Plasterers,Plasterers,4,0
+3333,Roof Tilers,Roof Tilers,Roof Tilers,4,0
+3334,Wall and Floor Tilers,Wall and Floor Tilers,Wall and Floor Tilers,4,0
+3341,Plumbers,Plumbers,Plumbers,4,0
+3400,"Electrotechnology and Telecommunications Trades Workers, nfd","Electrotechnology and Telecommunications Trades Workers, nfd",Electrotechnology and Telecommunications Trades Workers nfd,4,1
+3411,Electricians,Electricians,Electricians,4,0
+3420,"Electronics and Telecommunications Trades Workers, nfd","Electronics and Telecommunications Trades Workers, nfd",Electronics and Telecommunications Trades Workers nfd,4,1
+3421,Airconditioning and Refrigeration Mechanics,Airconditioning and Refrigeration Mechanics,Airconditioning and Refrigeration Mechanics,4,0
+3422,Electrical Distribution Trades Workers,Electrical Distribution Trades Workers,Electrical Distribution Trades Workers,4,0
+3423,Electronics Trades Workers,Electronics Trades Workers,Electronics Trades Workers,4,0
+3424,Telecommunications Trades Workers,Telecommunications Trades Workers,Telecommunications Trades Workers,4,0
+3510,"Food Trades Workers, nfd","Food Trades Workers, nfd",Food Trades Workers nfd,4,1
+3511,Bakers and Pastrycooks,Bakers and Pastrycooks,Bakers and Pastrycooks,4,0
+3512,Butchers and Smallgoods Makers,Butchers and Smallgoods Makers,Butchers and Smallgoods Makers,4,0
+3513,Chefs,Chefs,Chefs,4,0
+3514,Cooks,Cooks,Cooks,4,0
+3600,"Skilled Animal and Horticultural Workers, nfd","Skilled Animal and Horticultural Workers, nfd",Skilled Animal and Horticultural Workers nfd,4,1
+3610,"Animal Attendants and Trainers, and Shearers, nfd","Animal Attendants and Trainers, and Shearers, nfd","Animal Attendants and Trainers, and Shearers nfd",4,1
+3611,Animal Attendants and Trainers,Animal Attendants and Trainers,Animal Attendants and Trainers,4,0
+3612,Shearers,Shearers,Shearers,4,0
+3613,Veterinary Nurses,Veterinary Nurses,Veterinary Nurses,4,0
+3620,"Horticultural Trades Workers, nfd","Horticultural Trades Workers, nfd",Horticultural Trades Workers nfd,4,1
+3621,Florists,Florists,Florists,4,0
+3622,Gardeners,Gardeners,Gardeners,4,0
+3623,Greenkeepers,Greenkeepers,Greenkeepers,4,0
+3624,Nurserypersons,Nurserypersons,Nurserypersons,4,0
+3900,"Other Technicians and Trades Workers, nfd","Other Technicians and Trades Workers, nfd",Other Technicians and Trades Workers nfd,4,1
+3911,Hairdressers,Hairdressers,Hairdressers,4,0
+3920,"Printing Trades Workers, nfd","Printing Trades Workers, nfd",Printing Trades Workers nfd,4,1
+3921,Print Finishers and Screen Printers,Print Finishers and Screen Printers,Print Finishers and Screen Printers,4,0
+3922,Graphic Pre-press Trades Workers,Graphic Pre-press Trades Workers,Graphic Pre-press Trades Workers,4,0
+3923,Printers,Printers,Printers,4,0
+3930,"Textile, Clothing and Footwear Trades Workers, nfd","Textile, Clothing and Footwear Trades Workers, nfd","Textile, Clothing and Footwear Trades Workers nfd",4,1
+3931,Canvas and Leather Goods Makers,Canvas and Leather Goods Makers,Canvas and Leather Goods Makers,4,0
+3932,Clothing Trades Workers,Clothing Trades Workers,Clothing Trades Workers,4,0
+3933,Upholsterers,Upholsterers,Upholsterers,4,0
+3940,"Wood Trades Workers, nfd","Wood Trades Workers, nfd",Wood Trades Workers nfd,4,1
+3941,Cabinetmakers,Cabinetmakers,Cabinetmakers,4,0
+3942,Wood Machinists and Other Wood Trades Workers,Wood Machinists and Other Wood Trades Workers,Wood Machinists and Other Wood Trades Workers,4,0
+3990,"Miscellaneous Technicians and Trades Workers, nfd","Miscellaneous Technicians and Trades Workers, nfd",Miscellaneous Technicians and Trades Workers nfd,4,1
+3991,Boat Builders and Shipwrights,Boat Builders and Shipwrights,Boat Builders and Shipwrights,4,0
+3992,"Chemical, Gas, Petroleum and Power Generation Plant Operators","Chemical, Gas, Petroleum and Power Generation Plant Operators","Chemical, Gas, Petroleum and Power Generation Plant Operators",4,0
+3993,"Gallery, Library and Museum Technicians","Gallery, Library and Museum Technicians","Gallery, Library and Museum Technicians",4,0
+3994,Jewellers,Jewellers,Jewellers,4,0
+3995,Performing Arts Technicians,Performing Arts Technicians,Performing Arts Technicians,4,0
+3996,Signwriters,Signwriters,Signwriters,4,0
+3999,Other Miscellaneous Technicians and Trades Workers,Other Miscellaneous Technicians and Trades Workers,Other Miscellaneous Technicians and Trades Workers,4,0
+4000,"Community and Personal Service Workers, nfd","Community and Personal Service Workers, nfd",Community and Personal Service Workers nfd,4,1
+4110,"Health and Welfare Support Workers, nfd","Health and Welfare Support Workers, nfd",Health and Welfare Support Workers nfd,4,1
+4111,Ambulance Officers and Paramedics,Ambulance Officers and Paramedics,Ambulance Officers and Paramedics,4,0
+4112,"Dental Hygienists, Technicians and Therapists","Dental Hygienists, Technicians and Therapists","Dental Hygienists, Technicians and Therapists",4,0
+4113,Diversional Therapists,Diversional Therapists,Diversional Therapists,4,0
+4114,Enrolled and Mothercraft Nurses,Enrolled and Mothercraft Nurses,Enrolled and Mothercraft Nurses,4,0
+4115,Indigenous Health Workers,Indigenous Health Workers,Indigenous Health Workers,4,0
+4116,Massage Therapists,Massage Therapists,Massage Therapists,4,0
+4117,Welfare Support Workers,Welfare Support Workers,Welfare Support Workers,4,0
+4200,"Carers and Aides, nfd","Carers and Aides, nfd",Carers and Aides nfd,4,1
+4211,Child Carers,Child Carers,Child Carers,4,0
+4221,Education Aides,Education Aides,Education Aides,4,0
+4230,"Personal Carers and Assistants, nfd","Personal Carers and Assistants, nfd",Personal Carers and Assistants nfd,4,1
+4231,Aged and Disabled Carers,Aged and Disabled Carers,Aged and Disabled Carers,4,0
+4232,Dental Assistants,Dental Assistants,Dental Assistants,4,0
+4233,Nursing Support and Personal Care Workers,Nursing Support and Personal Care Workers,Nursing Support and Personal Care Workers,4,0
+4234,Special Care Workers,Special Care Workers,Special Care Workers,4,0
+4310,"Hospitality Workers, nfd","Hospitality Workers, nfd",Hospitality Workers nfd,4,1
+4311,Bar Attendants and Baristas,Bar Attendants and Baristas,Bar Attendants and Baristas,4,0
+4312,Cafe Workers,Cafe Workers,Cafe Workers,4,0
+4313,Gaming Workers,Gaming Workers,Gaming Workers,4,0
+4314,Hotel Service Managers,Hotel Service Managers,Hotel Service Managers,4,0
+4315,Waiters,Waiters,Waiters,4,0
+4319,Other Hospitality Workers,Other Hospitality Workers,Other Hospitality Workers,4,0
+4400,"Protective Service Workers, nfd","Protective Service Workers, nfd",Protective Service Workers nfd,4,1
+4410,"Defence Force Members, Fire Fighters and Police, nfd","Defence Force Members, Fire Fighters and Police, nfd","Defence Force Members, Fire Fighters and Police nfd",4,1
+4411,Defence Force Members - Other Ranks,Defence Force Members - Other Ranks,Defence Force Members - Other Ranks,4,0
+4412,Fire and Emergency Workers,Fire and Emergency Workers,Fire and Emergency Workers,4,0
+4413,Police,Police,Police,4,0
+4420,"Prison and Security Officers, nfd","Prison and Security Officers, nfd",Prison and Security Officers nfd,4,1
+4421,Prison Officers,Prison Officers,Prison Officers,4,0
+4422,Security Officers and Guards,Security Officers and Guards,Security Officers and Guards,4,0
+4500,"Sports and Personal Service Workers, nfd","Sports and Personal Service Workers, nfd",Sports and Personal Service Workers nfd,4,1
+4510,"Personal Service and Travel Workers, nfd","Personal Service and Travel Workers, nfd",Personal Service and Travel Workers nfd,4,1
+4511,Beauty Therapists,Beauty Therapists,Beauty Therapists,4,0
+4512,Driving Instructors,Driving Instructors,Driving Instructors,4,0
+4513,Funeral Workers,Funeral Workers,Funeral Workers,4,0
+4514,"Gallery, Museum and Tour Guides","Gallery, Museum and Tour Guides","Gallery, Museum and Tour Guides",4,0
+4515,Personal Care Consultants,Personal Care Consultants,Personal Care Consultants,4,0
+4516,Tourism and Travel Advisers,Tourism and Travel Advisers,Tourism and Travel Advisers,4,0
+4517,Travel Attendants,Travel Attendants,Travel Attendants,4,0
+4518,Other Personal Service Workers,Other Personal Service Workers,Other Personal Service Workers,4,0
+4520,"Sports and Fitness Workers, nfd","Sports and Fitness Workers, nfd",Sports and Fitness Workers nfd,4,1
+4521,Fitness Instructors,Fitness Instructors,Fitness Instructors,4,0
+4522,Outdoor Adventure Guides,Outdoor Adventure Guides,Outdoor Adventure Guides,4,0
+4523,"Sports Coaches, Instructors and Officials","Sports Coaches, Instructors and Officials","Sports Coaches, Instructors and Officials",4,0
+4524,Sportspersons,Sportspersons,Sportspersons,4,0
+5000,"Clerical and Administrative Workers, nfd","Clerical and Administrative Workers, nfd",Clerical and Administrative Workers nfd,4,1
+5100,"Office Managers and Program Administrators, nfd","Office Managers and Program Administrators, nfd",Office Managers and Program Administrators nfd,4,1
+5111,"Contract, Program and Project Administrators","Contract, Program and Project Administrators","Contract, Program and Project Administrators",4,0
+5120,"Office and Practice Managers, nfd","Office and Practice Managers, nfd",Office and Practice Managers nfd,4,1
+5121,Office Managers,Office Managers,Office Managers,4,0
+5122,Practice Managers,Practice Managers,Practice Managers,4,0
+5210,"Personal Assistants and Secretaries, nfd","Personal Assistants and Secretaries, nfd",Personal Assistants and Secretaries nfd,4,1
+5211,Personal Assistants,Personal Assistants,Personal Assistants,4,0
+5212,Secretaries,Secretaries,Secretaries,4,0
+5300,"General Clerical Workers, nfd","General Clerical Workers, nfd",General Clerical Workers nfd,4,1
+5311,General Clerks,General Clerks,General Clerks,4,0
+5321,Keyboard Operators,Keyboard Operators,Keyboard Operators,4,0
+5400,"Inquiry Clerks and Receptionists, nfd","Inquiry Clerks and Receptionists, nfd",Inquiry Clerks and Receptionists nfd,4,1
+5410,"Call or Contact Centre Information Clerks, nfd","Call or Contact Centre Information Clerks, nfd",Call or Contact Centre Information Clerks nfd,4,1
+5411,Call or Contact Centre Workers,Call or Contact Centre Workers,Call or Contact Centre Workers,4,0
+5412,Information Officers,Information Officers,Inquiry Clerks,4,0
+5421,Receptionists,Receptionists,Receptionists,4,0
+5500,"Numerical Clerks, nfd","Numerical Clerks, nfd",Numerical Clerks nfd,4,1
+5510,"Accounting Clerks and Bookkeepers, nfd","Accounting Clerks and Bookkeepers, nfd",Accounting Clerks and Bookkeepers nfd,4,1
+5511,Accounting Clerks,Accounting Clerks,Accounting Clerks,4,0
+5512,Bookkeepers,Bookkeepers,Bookkeepers,4,0
+5513,Payroll Clerks,Payroll Clerks,Payroll Clerks,4,0
+5520,"Financial and Insurance Clerks, nfd","Financial and Insurance Clerks, nfd",Financial and Insurance Clerks nfd,4,1
+5521,Bank Workers,Bank Workers,Bank Workers,4,0
+5522,Credit and Loans Officers,Credit and Loans Officers (Aus) / Finance Clerks (NZ),Credit and Loans Officers (Aus) / Finance Clerks (NZ),4,0
+5523,"Insurance, Money Market and Statistical Clerks","Insurance, Money Market and Statistical Clerks","Insurance, Money Market and Statistical Clerks",4,0
+5610,"Clerical and Office Support Workers, nfd","Clerical and Office Support Workers, nfd",Clerical and Office Support Workers nfd,4,1
+5611,Betting Clerks,Betting Clerks,Betting Clerks,4,0
+5612,Couriers and Postal Deliverers,Couriers and Postal Deliverers,Couriers and Postal Deliverers,4,0
+5613,Filing and Registry Clerks,Filing and Registry Clerks,Filing and Registry Clerks,4,0
+5614,Mail Sorters,Mail Sorters,Mail Sorters,4,0
+5615,Survey Interviewers,Survey Interviewers,Survey Interviewers,4,0
+5616,Switchboard Operators,Switchboard Operators,Switchboard Operators,4,0
+5619,Other Clerical and Office Support Workers,Other Clerical and Office Support Workers,Other Clerical and Office Support Workers,4,0
+5900,"Other Clerical and Administrative Workers, nfd","Other Clerical and Administrative Workers, nfd",Other Clerical and Administrative Workers nfd,4,1
+5910,"Logistics Clerks, nfd","Logistics Clerks, nfd",Logistics Clerks nfd,4,1
+5911,Purchasing and Supply Logistics Clerks,Purchasing and Supply Logistics Clerks,Purchasing and Supply Logistics Clerks,4,0
+5912,Transport and Despatch Clerks,Transport and Despatch Clerks,Transport and Despatch Clerks,4,0
+5990,"Miscellaneous Clerical and Administrative Workers, nfd","Miscellaneous Clerical and Administrative Workers, nfd",Miscellaneous Clerical and Administrative Workers nfd,4,1
+5991,Conveyancers and Legal Executives,Conveyancers and Legal Executives,Conveyancers and Legal Executives,4,0
+5992,Court and Legal Clerks,Court and Legal Clerks,Court and Legal Clerks,4,0
+5993,Debt Collectors,Debt Collectors,Debt Collectors,4,0
+5994,Human Resource Clerks,Human Resource Clerks,Human Resource Clerks,4,0
+5995,Inspectors and Regulatory Officers,Inspectors and Regulatory Officers,Inspectors and Regulatory Officers,4,0
+5996,"Insurance Investigators, Loss Adjusters and Risk Surveyors","Insurance Investigators, Loss Adjusters and Risk Surveyors","Insurance Investigators, Loss Adjusters and Risk Surveyors",4,0
+5997,Library Assistants,Library Assistants,Library Assistants,4,0
+5999,Other Miscellaneous Clerical and Administrative Workers,Other Miscellaneous Clerical and Administrative Workers,Other Miscellaneous Clerical and Administrative Workers,4,0
+6000,"Sales Workers, nfd","Sales Workers, nfd",Sales Workers nfd,4,1
+6100,"Sales Representatives and Agents, nfd","Sales Representatives and Agents, nfd",Sales Representatives and Agents nfd,4,1
+6110,"Insurance Agents and Sales Representatives, nfd","Insurance Agents and Sales Representatives, nfd",Insurance Agents and Sales Representatives nfd,4,1
+6111,"Auctioneers, and Stock and Station Agents","Auctioneers, and Stock and Station Agents","Auctioneers, and Stock and Station Agents",4,0
+6112,Insurance Agents,Insurance Agents,Insurance Agents,4,0
+6113,Sales Representatives,Sales Representatives,Sales Representatives,4,0
+6121,Real Estate Sales Agents,Real Estate Sales Agents,Real Estate Sales Agents,4,0
+6210,"Sales Assistants and Salespersons, nfd","Sales Assistants and Salespersons, nfd",Sales Assistants and Salespersons nfd,4,1
+6211,Sales Assistants (General),Sales Assistants (General),Sales Assistants (General),4,0
+6212,ICT Sales Assistants,ICT Sales Assistants,ICT Sales Assistants,4,0
+6213,Motor Vehicle and Vehicle Parts Salespersons,Motor Vehicle and Vehicle Parts Salespersons,Motor Vehicle and Vehicle Parts Salespersons,4,0
+6214,Pharmacy Sales Assistants,Pharmacy Sales Assistants,Pharmacy Sales Assistants,4,0
+6215,Retail Supervisors,Retail Supervisors,Retail Supervisors,4,0
+6216,Service Station Attendants,Service Station Attendants,Service Station Attendants,4,0
+6217,Street Vendors and Related Salespersons,Street Vendors and Related Salespersons,Street Vendors and Related Salespersons,4,0
+6219,Other Sales Assistants and Salespersons,Other Sales Assistants and Salespersons,Other Sales Assistants and Salespersons,4,0
+6300,"Sales Support Workers, nfd","Sales Support Workers, nfd",Sales Support Workers nfd,4,1
+6311,Checkout Operators and Office Cashiers,Checkout Operators and Office Cashiers,Checkout Operators and Office Cashiers,4,0
+6390,"Miscellaneous Sales Support Workers, nfd","Miscellaneous Sales Support Workers, nfd",Miscellaneous Sales Support Workers nfd,4,1
+6391,Models and Sales Demonstrators,Models and Sales Demonstrators,Models and Sales Demonstrators,4,0
+6392,Retail and Wool Buyers,Retail and Wool Buyers,Retail and Wool Buyers,4,0
+6393,Telemarketers,Telemarketers,Telemarketers,4,0
+6394,Ticket Salespersons,Ticket Salespersons,Ticket Salespersons,4,0
+6395,Visual Merchandisers,Visual Merchandisers,Visual Merchandisers,4,0
+6399,Other Sales Support Workers,Other Sales Support Workers,Other Sales Support Workers,4,0
+7000,"Machinery Operators and Drivers, nfd","Machinery Operators and Drivers, nfd",Machinery Operators and Drivers nfd,4,1
+7100,"Machine and Stationary Plant Operators, nfd","Machine and Stationary Plant Operators, nfd",Machine and Stationary Plant Operators nfd,4,1
+7110,"Machine Operators, nfd","Machine Operators, nfd",Machine Operators nfd,4,1
+7111,"Clay, Concrete, Glass and Stone Processing Machine Operators","Clay, Concrete, Glass and Stone Processing Machine Operators","Clay, Concrete, Glass and Stone Processing Machine Operators",4,0
+7112,Industrial Spraypainters,Industrial Spraypainters,Industrial Spraypainters,4,0
+7113,Paper and Wood Processing Machine Operators,Paper and Wood Processing Machine Operators,Paper and Wood Processing Machine Operators,4,0
+7114,Photographic Developers and Printers,Photographic Developers and Printers,Photographic Developers and Printers,4,0
+7115,Plastics and Rubber Production Machine Operators,Plastics and Rubber Production Machine Operators,Plastics and Rubber Production Machine Operators,4,0
+7116,Sewing Machinists,Sewing Machinists,Sewing Machinists,4,0
+7117,Textile and Footwear Production Machine Operators,Textile and Footwear Production Machine Operators,Textile and Footwear Production Machine Operators,4,0
+7119,Other Machine Operators,Other Machine Operators,Other Machine Operators,4,0
+7120,"Stationary Plant Operators, nfd","Stationary Plant Operators, nfd",Stationary Plant Operators nfd,4,1
+7121,"Crane, Hoist and Lift Operators","Crane, Hoist and Lift Operators","Crane, Hoist and Lift Operators",4,0
+7122,"Drillers, Miners and Shot Firers","Drillers, Miners and Shot Firers","Drillers, Miners and Shot Firers",4,0
+7123,Engineering Production Workers,Engineering Production Workers,Engineering Production Workers,4,0
+7129,Other Stationary Plant Operators,Other Stationary Plant Operators,Other Stationary Plant Operators,4,0
+7210,"Mobile Plant Operators, nfd","Mobile Plant Operators, nfd",Mobile Plant Operators nfd,4,1
+7211,"Agricultural, Forestry and Horticultural Plant Operators","Agricultural, Forestry and Horticultural Plant Operators","Agricultural, Forestry and Horticultural Plant Operators",4,0
+7212,Earthmoving Plant Operators,Earthmoving Plant Operators,Earthmoving Plant Operators,4,0
+7213,Forklift Drivers,Forklift Drivers,Forklift Drivers,4,0
+7219,Other Mobile Plant Operators,Other Mobile Plant Operators,Other Mobile Plant Operators,4,0
+7300,"Road and Rail Drivers, nfd","Road and Rail Drivers, nfd",Road and Rail Drivers nfd,4,1
+7310,"Automobile, Bus and Rail Drivers, nfd","Automobile, Bus and Rail Drivers, nfd","Automobile, Bus and Rail Drivers nfd",4,1
+7311,Automobile Drivers,Automobile Drivers,Automobile Drivers,4,0
+7312,Bus and Coach Drivers,Bus and Coach Drivers,Bus and Coach Drivers,4,0
+7313,Train and Tram Drivers,Train and Tram Drivers,Train and Tram Drivers,4,0
+7321,Delivery Drivers,Delivery Drivers,Delivery Drivers,4,0
+7331,Truck Drivers,Truck Drivers,Truck Drivers,4,0
+7411,Storepersons,Storepersons,Storepersons,4,0
+8000,"Labourers, nfd","Labourers, nfd",Labourers nfd,4,1
+8110,"Cleaners and Laundry Workers, nfd","Cleaners and Laundry Workers, nfd",Cleaners and Laundry Workers nfd,4,1
+8111,Car Detailers,Car Detailers,Car Detailers,4,0
+8112,Commercial Cleaners,Commercial Cleaners,Commercial Cleaners,4,0
+8113,Domestic Cleaners,Domestic Cleaners,Domestic Cleaners,4,0
+8114,Housekeepers,Housekeepers,Housekeepers,4,0
+8115,Laundry Workers,Laundry Workers,Laundry Workers,4,0
+8116,Other Cleaners,Other Cleaners,Other Cleaners,4,0
+8210,"Construction and Mining Labourers, nfd","Construction and Mining Labourers, nfd",Construction and Mining Labourers nfd,4,1
+8211,Building and Plumbing Labourers,Building and Plumbing Labourers,Building and Plumbing Labourers,4,0
+8212,Concreters,Concreters,Concreters,4,0
+8213,Fencers,Fencers,Fencers,4,0
+8214,Insulation and Home Improvement Installers,Insulation and Home Improvement Installers,Insulation and Home Improvement Installers,4,0
+8215,Paving and Surfacing Labourers,Paving and Surfacing Labourers,Paving and Surfacing Labourers,4,0
+8216,Railway Track Workers,Railway Track Workers,Railway Track Workers,4,0
+8217,Structural Steel Construction Workers,Structural Steel Construction Workers,Structural Steel Construction Workers,4,0
+8219,Other Construction and Mining Labourers,Other Construction and Mining Labourers,Other Construction and Mining Labourers,4,0
+8300,"Factory Process Workers, nfd","Factory Process Workers, nfd",Factory Process Workers nfd,4,1
+8310,"Food Process Workers, nfd","Food Process Workers, nfd",Food Process Workers nfd,4,1
+8311,Food and Drink Factory Workers,Food and Drink Factory Workers,Food and Drink Factory Workers,4,0
+8312,"Meat Boners and Slicers, and Slaughterers","Meat Boners and Slicers, and Slaughterers","Meat Boners and Slicers, and Slaughterers",4,0
+8313,"Meat, Poultry and Seafood Process Workers","Meat, Poultry and Seafood Process Workers","Meat, Poultry and Seafood Process Workers",4,0
+8320,"Packers and Product Assemblers, nfd","Packers and Product Assemblers, nfd",Packers and Product Assemblers nfd,4,1
+8321,Packers,Packers,Packers,4,0
+8322,Product Assemblers,Product Assemblers,Product Assemblers,4,0
+8390,"Miscellaneous Factory Process Workers, nfd","Miscellaneous Factory Process Workers, nfd",Miscellaneous Factory Process Workers nfd,4,1
+8391,Metal Engineering Process Workers,Metal Engineering Process Workers,Metal Engineering Process Workers,4,0
+8392,Plastics and Rubber Factory Workers,Plastics and Rubber Factory Workers,Plastics and Rubber Factory Workers,4,0
+8393,Product Quality Controllers,Product Quality Controllers,Product Quality Controllers,4,0
+8394,Timber and Wood Process Workers,Timber and Wood Process Workers,Timber and Wood Process Workers,4,0
+8399,Other Factory Process Workers,Other Factory Process Workers,Other Factory Process Workers,4,0
+8410,"Farm, Forestry and Garden Workers, nfd","Farm, Forestry and Garden Workers, nfd","Farm, Forestry and Garden Workers nfd",4,1
+8411,Aquaculture Workers,Aquaculture Workers,Aquaculture Workers,4,0
+8412,Crop Farm Workers,Crop Farm Workers,Crop Farm Workers,4,0
+8413,Forestry and Logging Workers,Forestry and Logging Workers,Forestry and Logging Workers,4,0
+8414,Garden and Nursery Labourers,Garden and Nursery Labourers,Garden and Nursery Labourers,4,0
+8415,Livestock Farm Workers,Livestock Farm Workers,Livestock Farm Workers,4,0
+8416,Mixed Crop and Livestock Farm Workers,Mixed Crop and Livestock Farm Workers,Mixed Crop and Livestock Farm Workers,4,0
+8419,"Other Farm, Forestry and Garden Workers","Other Farm, Forestry and Garden Workers","Other Farm, Forestry and Garden Workers",4,0
+8510,"Food Preparation Assistants, nfd","Food Preparation Assistants, nfd",Food Preparation Assistants nfd,4,1
+8511,Fast Food Cooks,Fast Food Cooks,Fast Food Cooks,4,0
+8512,Food Trades Assistants,Food Trades Assistants,Food Trades Assistants,4,0
+8513,Kitchenhands,Kitchenhands,Kitchenhands,4,0
+8900,"Other Labourers, nfd","Other Labourers, nfd",Other Labourers nfd,4,1
+8910,"Freight Handlers and Shelf Fillers, nfd","Freight Handlers and Shelf Fillers, nfd",Freight Handlers and Shelf Fillers nfd,4,1
+8911,Freight and Furniture Handlers,Freight and Furniture Handlers,Freight and Furniture Handlers,4,0
+8912,Shelf Fillers,Shelf Fillers,Shelf Fillers,4,0
+8990,"Miscellaneous Labourers, nfd","Miscellaneous Labourers, nfd",Miscellaneous Labourers nfd,4,1
+8991,Caretakers,Caretakers,Caretakers,4,0
+8992,Deck and Fishing Hands,Deck and Fishing Hands,Deck and Fishing Hands,4,0
+8993,Handypersons,Handypersons,Handypersons,4,0
+8994,Motor Vehicle Parts and Accessories Fitters,Motor Vehicle Parts and Accessories Fitters,Motor Vehicle Parts and Accessories Fitters,4,0
+8995,Printing Assistants and Table Workers,Printing Assistants and Table Workers,Printing Assistants and Table Workers,4,0
+8996,Recycling and Rubbish Collectors,Recycling and Rubbish Collectors,Recycling and Rubbish Collectors,4,0
+8997,Vending Machine Attendants,Vending Machine Attendants,Vending Machine Attendants,4,0
+8999,Other Miscellaneous Labourers,Other Miscellaneous Labourers,Other Miscellaneous Labourers,4,0
+100,"Managers, nfd","Managers, nfd",Managers nfd,3,1
+111,"Chief Executives, General Managers and Legislators","Chief Executives, General Managers and Legislators","Chief Executives, General Managers and Legislators",3,0
+121,Farmers and Farm Managers,Farmers and Farm Managers,Farmers and Farm Managers,3,0
+130,"Specialist Managers, nfd","Specialist Managers, nfd",Specialist Managers nfd,3,1
+131,"Advertising, Public Relations and Sales Managers","Advertising, Public Relations and Sales Managers","Advertising, Public Relations and Sales Managers",3,0
+132,Business Administration Managers,Business Administration Managers,Business Administration Managers,3,0
+133,"Construction, Distribution and Production Managers","Construction, Distribution and Production Managers","Construction, Distribution and Production Managers",3,0
+134,"Education, Health and Welfare Services Managers","Education, Health and Welfare Services Managers","Education, Health and Welfare Services Managers",3,0
+135,ICT Managers,ICT Managers,ICT Managers,3,0
+139,Miscellaneous Specialist Managers,Miscellaneous Specialist Managers,Miscellaneous Specialist Managers,3,0
+140,"Hospitality, Retail and Service Managers, nfd","Hospitality, Retail and Service Managers, nfd","Hospitality, Retail and Service Managers nfd",3,1
+141,Accommodation and Hospitality Managers,Accommodation and Hospitality Managers,Accommodation and Hospitality Managers,3,0
+142,Retail Managers,Retail Managers,Retail Managers,3,0
+149,"Miscellaneous Hospitality, Retail and Service Managers","Miscellaneous Hospitality, Retail and Service Managers","Miscellaneous Hospitality, Retail and Service Managers",3,0
+200,"Professionals, nfd","Professionals, nfd",Professionals nfd,3,1
+210,"Arts and Media Professionals, nfd","Arts and Media Professionals, nfd",Arts and Media Professionals nfd,3,1
+211,Arts Professionals,Arts Professionals,Arts Professionals,3,0
+212,Media Professionals,Media Professionals,Media Professionals,3,0
+220,"Business, Human Resource and Marketing Professionals, nfd","Business, Human Resource and Marketing Professionals, nfd","Business, Human Resource and Marketing Professionals nfd",3,1
+221,"Accountants, Auditors and Company Secretaries","Accountants, Auditors and Company Secretaries","Accountants, Auditors and Company Secretaries",3,0
+222,"Financial Brokers and Dealers, and Investment Advisers","Financial Brokers and Dealers, and Investment Advisers","Financial Brokers and Dealers, and Investment Advisers",3,0
+223,Human Resource and Training Professionals,Human Resource and Training Professionals,Human Resource and Training Professionals,3,0
+224,Information and Organisation Professionals,Information and Organisation Professionals,Information and Organisation Professionals,3,0
+225,"Sales, Marketing and Public Relations Professionals","Sales, Marketing and Public Relations Professionals","Sales, Marketing and Public Relations Professionals",3,0
+230,"Design, Engineering, Science and Transport Professionals, nfd","Design, Engineering, Science and Transport Professionals, nfd","Design, Engineering, Science and Transport Professionals nfd",3,1
+231,Air and Marine Transport Professionals,Air and Marine Transport Professionals,Air and Marine Transport Professionals,3,0
+232,"Architects, Designers, Planners and Surveyors","Architects, Designers, Planners and Surveyors","Architects, Designers, Planners and Surveyors",3,0
+233,Engineering Professionals,Engineering Professionals,Engineering Professionals,3,0
+234,Natural and Physical Science Professionals,Natural and Physical Science Professionals,Natural and Physical Science Professionals,3,0
+240,"Education Professionals, nfd","Education Professionals, nfd",Education Professionals nfd,3,1
+241,School Teachers,School Teachers,School Teachers,3,0
+242,Tertiary Education Teachers,Tertiary Education Teachers,Tertiary Education Teachers,3,0
+249,Miscellaneous Education Professionals,Miscellaneous Education Professionals,Miscellaneous Education Professionals,3,0
+250,"Health Professionals, nfd","Health Professionals, nfd",Health Professionals nfd,3,1
+251,Health Diagnostic and Promotion Professionals,Health Diagnostic and Promotion Professionals,Health Diagnostic and Promotion Professionals,3,0
+252,Health Therapy Professionals,Health Therapy Professionals,Health Therapy Professionals,3,0
+253,Medical Practitioners,Medical Practitioners,Medical Practitioners,3,0
+254,Midwifery and Nursing Professionals,Midwifery and Nursing Professionals,Midwifery and Nursing Professionals,3,0
+260,"ICT Professionals, nfd","ICT Professionals, nfd",ICT Professionals nfd,3,1
+261,"Business and Systems Analysts, and Programmers","Business and Systems Analysts, and Programmers","Business and Systems Analysts, and Programmers",3,0
+262,"Database and Systems Administrators, and ICT Security Specialists","Database and Systems Administrators, and ICT Security Specialists","Database and Systems Administrators, and ICT Security Specialists",3,0
+263,ICT Network and Support Professionals,ICT Network and Support Professionals,ICT Network and Support Professionals,3,0
+270,"Legal, Social and Welfare Professionals, nfd","Legal, Social and Welfare Professionals, nfd","Legal, Social and Welfare Professionals nfd",3,1
+271,Legal Professionals,Legal Professionals,Legal Professionals,3,0
+272,Social and Welfare Professionals,Social and Welfare Professionals,Social and Welfare Professionals,3,0
+300,"Technicians and Trades Workers, nfd","Technicians and Trades Workers, nfd",Technicians and Trades Workers nfd,3,1
+310,"Engineering, ICT and Science Technicians, nfd","Engineering, ICT and Science Technicians, nfd","Engineering, ICT and Science Technicians nfd",3,1
+311,"Agricultural, Medical and Science Technicians","Agricultural, Medical and Science Technicians","Agricultural, Medical and Science Technicians",3,0
+312,Building and Engineering Technicians,Building and Engineering Technicians,Building and Engineering Technicians,3,0
+313,ICT and Telecommunications Technicians,ICT and Telecommunications Technicians,ICT and Telecommunications Technicians,3,0
+320,"Automotive and Engineering Trades Workers, nfd","Automotive and Engineering Trades Workers, nfd",Automotive and Engineering Trades Workers nfd,3,1
+321,Automotive Electricians and Mechanics,Automotive Electricians and Mechanics,Automotive Electricians and Mechanics,3,0
+322,Fabrication Engineering Trades Workers,Fabrication Engineering Trades Workers,Fabrication Engineering Trades Workers,3,0
+323,Mechanical Engineering Trades Workers,Mechanical Engineering Trades Workers,Mechanical Engineering Trades Workers,3,0
+324,"Panelbeaters, and Vehicle Body Builders, Trimmers and Painters","Panelbeaters, and Vehicle Body Builders, Trimmers and Painters","Panelbeaters, and Vehicle Body Builders, Trimmers and Painters",3,0
+330,"Construction Trades Workers, nfd","Construction Trades Workers, nfd",Construction Trades Workers nfd,3,1
+331,"Bricklayers, and Carpenters and Joiners","Bricklayers, and Carpenters and Joiners","Bricklayers, and Carpenters and Joiners",3,0
+332,Floor Finishers and Painting Trades Workers,Floor Finishers and Painting Trades Workers,Floor Finishers and Painting Trades Workers,3,0
+333,"Glaziers, Plasterers and Tilers","Glaziers, Plasterers and Tilers","Glaziers, Plasterers and Tilers",3,0
+334,Plumbers,Plumbers,Plumbers,3,0
+340,"Electrotechnology and Telecommunications Trades Workers, nfd","Electrotechnology and Telecommunications Trades Workers, nfd",Electrotechnology and Telecommunications Trades Workers nfd,3,1
+341,Electricians,Electricians,Electricians,3,0
+342,Electronics and Telecommunications Trades Workers,Electronics and Telecommunications Trades Workers,Electronics and Telecommunications Trades Workers,3,0
+351,Food Trades Workers,Food Trades Workers,Food Trades Workers,3,0
+360,"Skilled Animal and Horticultural Workers, nfd","Skilled Animal and Horticultural Workers, nfd",Skilled Animal and Horticultural Workers nfd,3,1
+361,"Animal Attendants and Trainers, and Shearers","Animal Attendants and Trainers, and Shearers","Animal Attendants and Trainers, and Shearers",3,0
+362,Horticultural Trades Workers,Horticultural Trades Workers,Horticultural Trades Workers,3,0
+390,"Other Technicians and Trades Workers, nfd","Other Technicians and Trades Workers, nfd",Other Technicians and Trades Workers nfd,3,1
+391,Hairdressers,Hairdressers,Hairdressers,3,0
+392,Printing Trades Workers,Printing Trades Workers,Printing Trades Workers,3,0
+393,"Textile, Clothing and Footwear Trades Workers","Textile, Clothing and Footwear Trades Workers","Textile, Clothing and Footwear Trades Workers",3,0
+394,Wood Trades Workers,Wood Trades Workers,Wood Trades Workers,3,0
+399,Miscellaneous Technicians and Trades Workers,Miscellaneous Technicians and Trades Workers,Miscellaneous Technicians and Trades Workers,3,0
+400,"Community and Personal Service Workers, nfd","Community and Personal Service Workers, nfd",Community and Personal Service Workers nfd,3,1
+411,Health and Welfare Support Workers,Health and Welfare Support Workers,Health and Welfare Support Workers,3,0
+420,"Carers and Aides, nfd","Carers and Aides, nfd",Carers and Aides nfd,3,1
+421,Child Carers,Child Carers,Child Carers,3,0
+422,Education Aides,Education Aides,Education Aides,3,0
+423,Personal Carers and Assistants,Personal Carers and Assistants,Personal Carers and Assistants,3,0
+431,Hospitality Workers,Hospitality Workers,Hospitality Workers,3,0
+440,"Protective Service Workers, nfd","Protective Service Workers, nfd",Protective Service Workers nfd,3,1
+441,"Defence Force Members, Fire Fighters and Police","Defence Force Members, Fire Fighters and Police","Defence Force Members, Fire Fighters and Police",3,0
+442,Prison and Security Officers,Prison and Security Officers,Prison and Security Officers,3,0
+450,"Sports and Personal Service Workers, nfd","Sports and Personal Service Workers, nfd",Sports and Personal Service Workers nfd,3,1
+451,Personal Service and Travel Workers,Personal Service and Travel Workers,Personal Service and Travel Workers,3,0
+452,Sports and Fitness Workers,Sports and Fitness Workers,Sports and Fitness Workers,3,0
+500,"Clerical and Administrative Workers, nfd","Clerical and Administrative Workers, nfd",Clerical and Administrative Workers nfd,3,1
+510,"Office Managers and Program Administrators, nfd","Office Managers and Program Administrators, nfd",Office Managers and Program Administrators nfd,3,1
+511,"Contract, Program and Project Administrators","Contract, Program and Project Administrators","Contract, Program and Project Administrators",3,0
+512,Office and Practice Managers,Office and Practice Managers,Office and Practice Managers,3,0
+521,Personal Assistants and Secretaries,Personal Assistants and Secretaries,Personal Assistants and Secretaries,3,0
+530,"General Clerical Workers, nfd","General Clerical Workers, nfd",General Clerical Workers nfd,3,1
+531,General Clerks,General Clerks,General Clerks,3,0
+532,Keyboard Operators,Keyboard Operators,Keyboard Operators,3,0
+540,"Inquiry Clerks and Receptionists, nfd","Inquiry Clerks and Receptionists, nfd",Inquiry Clerks and Receptionists nfd,3,1
+541,Call or Contact Centre Information Clerks,Call or Contact Centre Information Clerks,Call or Contact Centre Information Clerks,3,0
+542,Receptionists,Receptionists,Receptionists,3,0
+550,"Numerical Clerks, nfd","Numerical Clerks, nfd",Numerical Clerks nfd,3,1
+551,Accounting Clerks and Bookkeepers,Accounting Clerks and Bookkeepers,Accounting Clerks and Bookkeepers,3,0
+552,Financial and Insurance Clerks,Financial and Insurance Clerks,Financial and Insurance Clerks,3,0
+561,Clerical and Office Support Workers,Clerical and Office Support Workers,Clerical and Office Support Workers,3,0
+590,"Other Clerical and Administrative Workers, nfd","Other Clerical and Administrative Workers, nfd",Other Clerical and Administrative Workers nfd,3,1
+591,Logistics Clerks,Logistics Clerks,Logistics Clerks,3,0
+599,Miscellaneous Clerical and Administrative Workers,Miscellaneous Clerical and Administrative Workers,Miscellaneous Clerical and Administrative Workers,3,0
+600,"Sales Workers, nfd","Sales Workers, nfd",Sales Workers nfd,3,1
+610,"Sales Representatives and Agents, nfd","Sales Representatives and Agents, nfd",Sales Representatives and Agents nfd,3,1
+611,Insurance Agents and Sales Representatives,Insurance Agents and Sales Representatives,Insurance Agents and Sales Representatives,3,0
+612,Real Estate Sales Agents,Real Estate Sales Agents,Real Estate Sales Agents,3,0
+621,Sales Assistants and Salespersons,Sales Assistants and Salespersons,Sales Assistants and Salespersons,3,0
+630,"Sales Support Workers, nfd","Sales Support Workers, nfd",Sales Support Workers nfd,3,1
+631,Checkout Operators and Office Cashiers,Checkout Operators and Office Cashiers,Checkout Operators and Office Cashiers,3,0
+639,Miscellaneous Sales Support Workers,Miscellaneous Sales Support Workers,Miscellaneous Sales Support Workers,3,0
+700,"Machinery Operators and Drivers, nfd","Machinery Operators and Drivers, nfd",Machinery Operators and Drivers nfd,3,1
+710,"Machine and Stationary Plant Operators, nfd","Machine and Stationary Plant Operators, nfd",Machine and Stationary Plant Operators nfd,3,1
+711,Machine Operators,Machine Operators,Machine Operators,3,0
+712,Stationary Plant Operators,Stationary Plant Operators,Stationary Plant Operators,3,0
+721,Mobile Plant Operators,Mobile Plant Operators,Mobile Plant Operators,3,0
+730,"Road and Rail Drivers, nfd","Road and Rail Drivers, nfd",Road and Rail Drivers nfd,3,1
+731,"Automobile, Bus and Rail Drivers","Automobile, Bus and Rail Drivers","Automobile, Bus and Rail Drivers",3,0
+732,Delivery Drivers,Delivery Drivers,Delivery Drivers,3,0
+733,Truck Drivers,Truck Drivers,Truck Drivers,3,0
+741,Storepersons,Storepersons,Storepersons,3,0
+800,"Labourers, nfd","Labourers, nfd",Labourers nfd,3,1
+811,Cleaners and Laundry Workers,Cleaners and Laundry Workers,Cleaners and Laundry Workers,3,0
+821,Construction and Mining Labourers,Construction and Mining Labourers,Construction and Mining Labourers,3,0
+830,"Factory Process Workers, nfd","Factory Process Workers, nfd",Factory Process Workers nfd,3,1
+831,Food Process Workers,Food Process Workers,Food Process Workers,3,0
+832,Packers and Product Assemblers,Packers and Product Assemblers,Packers and Product Assemblers,3,0
+839,Miscellaneous Factory Process Workers,Miscellaneous Factory Process Workers,Miscellaneous Factory Process Workers,3,0
+841,"Farm, Forestry and Garden Workers","Farm, Forestry and Garden Workers","Farm, Forestry and Garden Workers",3,0
+851,Food Preparation Assistants,Food Preparation Assistants,Food Preparation Assistants,3,0
+890,"Other Labourers, nfd","Other Labourers, nfd",Other Labourers nfd,3,1
+891,Freight Handlers and Shelf Fillers,Freight Handlers and Shelf Fillers,Freight Handlers and Shelf Fillers,3,0
+899,Miscellaneous Labourers,Miscellaneous Labourers,Miscellaneous Labourers,3,0
+10,"Managers, nfd","Managers, nfd",Managers nfd,2,1
+11,"Chief Executives, General Managers and Legislators","Chief Executives, General Managers and Legislators","Chief Executives, General Managers and Legislators",2,0
+12,Farmers and Farm Managers,Farmers and Farm Managers,Farmers and Farm Managers,2,0
+13,Specialist Managers,Specialist Managers,Specialist Managers,2,0
+14,"Hospitality, Retail and Service Managers","Hospitality, Retail and Service Managers","Hospitality, Retail and Service Managers",2,0
+20,"Professionals, nfd","Professionals, nfd",Professionals nfd,2,1
+21,Arts and Media Professionals,Arts and Media Professionals,Arts and Media Professionals,2,0
+22,"Business, Human Resource and Marketing Professionals","Business, Human Resource and Marketing Professionals","Business, Human Resource and Marketing Professionals",2,0
+23,"Design, Engineering, Science and Transport Professionals","Design, Engineering, Science and Transport Professionals","Design, Engineering, Science and Transport Professionals",2,0
+24,Education Professionals,Education Professionals,Education Professionals,2,0
+25,Health Professionals,Health Professionals,Health Professionals,2,0
+26,ICT Professionals,ICT Professionals,ICT Professionals,2,0
+27,"Legal, Social and Welfare Professionals","Legal, Social and Welfare Professionals","Legal, Social and Welfare Professionals",2,0
+30,"Technicians and Trades Workers, nfd","Technicians and Trades Workers, nfd",Technicians and Trades Workers nfd,2,1
+31,"Engineering, ICT and Science Technicians","Engineering, ICT and Science Technicians","Engineering, ICT and Science Technicians",2,0
+32,Automotive and Engineering Trades Workers,Automotive and Engineering Trades Workers,Automotive and Engineering Trades Workers,2,0
+33,Construction Trades Workers,Construction Trades Workers,Construction Trades Workers,2,0
+34,Electrotechnology and Telecommunications Trades Workers,Electrotechnology and Telecommunications Trades Workers,Electrotechnology and Telecommunications Trades Workers,2,0
+35,Food Trades Workers,Food Trades Workers,Food Trades Workers,2,0
+36,Skilled Animal and Horticultural Workers,Skilled Animal and Horticultural Workers,Skilled Animal and Horticultural Workers,2,0
+39,Other Technicians and Trades Workers,Other Technicians and Trades Workers,Other Technicians and Trades Workers,2,0
+40,"Community and Personal Service Workers, nfd","Community and Personal Service Workers, nfd",Community and Personal Service Workers nfd,2,1
+41,Health and Welfare Support Workers,Health and Welfare Support Workers,Health and Welfare Support Workers,2,0
+42,Carers and Aides,Carers and Aides,Carers and Aides,2,0
+43,Hospitality Workers,Hospitality Workers,Hospitality Workers,2,0
+44,Protective Service Workers,Protective Service Workers,Protective Service Workers,2,0
+45,Sports and Personal Service Workers,Sports and Personal Service Workers,Sports and Personal Service Workers,2,0
+50,"Clerical and Administrative Workers, nfd","Clerical and Administrative Workers, nfd",Clerical and Administrative Workers nfd,2,1
+51,Office Managers and Program Administrators,Office Managers and Program Administrators,Office Managers and Program Administrators,2,0
+52,Personal Assistants and Secretaries,Personal Assistants and Secretaries,Personal Assistants and Secretaries,2,0
+53,General Clerical Workers,General Clerical Workers,General Clerical Workers,2,0
+54,Inquiry Clerks and Receptionists,Inquiry Clerks and Receptionists,Inquiry Clerks and Receptionists,2,0
+55,Numerical Clerks,Numerical Clerks,Numerical Clerks,2,0
+56,Clerical and Office Support Workers,Clerical and Office Support Workers,Clerical and Office Support Workers,2,0
+59,Other Clerical and Administrative Workers,Other Clerical and Administrative Workers,Other Clerical and Administrative Workers,2,0
+60,"Sales Workers, nfd","Sales Workers, nfd",Sales Workers nfd,2,1
+61,Sales Representatives and Agents,Sales Representatives and Agents,Sales Representatives and Agents,2,0
+62,Sales Assistants and Salespersons,Sales Assistants and Salespersons,Sales Assistants and Salespersons,2,0
+63,Sales Support Workers,Sales Support Workers,Sales Support Workers,2,0
+70,"Machinery Operators and Drivers, nfd","Machinery Operators and Drivers, nfd",Machinery Operators and Drivers nfd,2,1
+71,Machine and Stationary Plant Operators,Machine and Stationary Plant Operators,Machine and Stationary Plant Operators,2,0
+72,Mobile Plant Operators,Mobile Plant Operators,Mobile Plant Operators,2,0
+73,Road and Rail Drivers,Road and Rail Drivers,Road and Rail Drivers,2,0
+74,Storepersons,Storepersons,Storepersons,2,0
+80,"Labourers, nfd","Labourers, nfd",Labourers nfd,2,1
+81,Cleaners and Laundry Workers,Cleaners and Laundry Workers,Cleaners and Laundry Workers,2,0
+82,Construction and Mining Labourers,Construction and Mining Labourers,Construction and Mining Labourers,2,0
+83,Factory Process Workers,Factory Process Workers,Factory Process Workers,2,0
+84,"Farm, Forestry and Garden Workers","Farm, Forestry and Garden Workers","Farm, Forestry and Garden Workers",2,0
+85,Food Preparation Assistants,Food Preparation Assistants,Food Preparation Assistants,2,0
+89,Other Labourers,Other Labourers,Other Labourers,2,0
+1,Managers,Managers,Managers,1,0
+2,Professionals,Professionals,Professionals,1,0
+3,Technicians and Trades Workers,Technicians and Trades Workers,Technicians and Trades Workers,1,0
+4,Community and Personal Service Workers,Community and Personal Service Workers,Community and Personal Service Workers,1,0
+5,Clerical and Administrative Workers,Clerical and Administrative Workers,Clerical and Administrative Workers,1,0
+6,Sales Workers,Sales Workers,Sales Workers,1,0
+7,Machinery Operators and Drivers,Machinery Operators and Drivers,Machinery Operators and Drivers,1,0
+8,Labourers,Labourers,Labourers,1,0
