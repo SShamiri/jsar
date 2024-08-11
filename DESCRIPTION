@@ -2,9 +2,20 @@ Package: jsar
 Date: 2024-08-01
 Title: Collection of useful R funtions JSA
 Version: 0.1.0
-Authors@R: 
-    person("Samuel", "Shamiri", , "samuelshamiri@yahoo.com", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0003-0669-5109"))
+Authors@R:c(
+    person(given = "Samuel",
+           family = "Shamiri",
+           role = c("aut","cre"),
+           email = "sam.shamiri@jobsandskills.gov.au",
+           comment = c(ORCID = "0000-0003-0669-5109")),
+    person(given = "Johann",
+           family = "Wagner",
+           role = c("aut"),
+           email = "wagner.johann@jobsandskills.gov.au"),
+    person(given = "Justin",
+           family = "Nguyen",
+           role = c("aut"),
+           email = "nguyen.justin@jobsandskills.gov.au"))
 Description: Collate R functions into a package for future use.
 License: MIT + file LICENSE
 Encoding: UTF-8
