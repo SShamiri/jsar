@@ -50,48 +50,34 @@ devtools::build_vignettes()
 browseURL("doc/jsar.html")
 
 ###  Set up pkgdown and githup
+usethis::use_pkgdown()
 usethis::use_github() # this create a repo on github
 pkgdown::build_site()
 pkgdown::init_site()      # copy logo to the right places
+# add logo
+# first be sure the logo exist in the folder, see Other section 'logo'
+usethis::use_logo("inst/figures/logo.png")
 pkgdown::build_favicons() # create favicons from the logo
 devtools::build_readme()  # update README.md after changes to the Rmd
 pkgdown::build_home()     # update home page
 usethis::use_lifecycle_badge("experimental") # add badge
+# add citation, see Other section 'citation' to fill CITATION file
+usethis::use_citation() # Once the file is updated
+citation("jsar")
 
 
 
 
-usethis::use_pkgdown()
-usethis::use_pkgdown_github_pages() # for github
-# add logo
-usethis::use_logo("inst/figures/logo.png")
+
+
 
 
 
 
 #################
- ### github setup
-usethis::use_github() # this create a repo on github
-
-
-
-###  Set up pkgdown
-#usethis::use_pkgdown()
-usethis::use_pkgdown_github_pages() # for github
-# add logo
-usethis::use_logo("inst/figures/logo.png")
-
-usethis::use_github_action()
-usethis::use_github_actions_badge()
-
-### testing
-
-# unit test
-#usethis::use_r("fun_name")
-#usethis::use_testthat("fun_name")
-
 
 ######### Other ----
+## testing
  lfs_state %>%
  group_by(date) %>%
  summarise(emp = sum(emp), .groups = 'drop') %>%
@@ -102,15 +88,19 @@ usethis::use_github_actions_badge()
 df <- data.frame(date = seq(as.Date("2000/1/1"), by = "month", length.out = 5),
            col = runif(5, min = 2, max = 20))
 ## Logo
-# library(hexSticker)
-#
-# imgurl <- "/Users/samuelshamiri/Downloads/jobs_skills_australia_logo.jpeg"
-# sticker(imgurl,
-#         package="utilityJSA",
-#         p_size=20,
-#         s_x=1,
-#         s_y=.75,
-#         s_width=.5,
-#         h_fill="#2f005f", h_color="#f39c12",
-#         #dpi = 1000,
-#         filename="inst/figures/logo.png")
+library(hexSticker)
+
+imgurl <- "/Users/samuelshamiri/Downloads/jobs_skills_australia_logo.jpeg"
+sticker(imgurl,
+        package="jsar",
+        p_size=20,
+        s_x=1,
+        s_y=.75,
+        s_width=.5,
+        h_fill="#2f005f", h_color="#f39c12",
+        #dpi = 1000,
+        filename="inst/figures/logo.png")
+
+## Citation
+meta <- packageDescription("jsar")
+names(meta)
