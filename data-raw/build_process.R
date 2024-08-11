@@ -44,9 +44,27 @@ devtools::document() # only for first-time or change in fun doc
 usethis::use_testthat(3) # this done once for package, only for the first-time to create the folder
 usethis::use_test('calc_change')
 
+### create vignettee
+usethis::use_vignette("jsar")
+devtools::build_vignettes()
+browseURL("doc/jsar.html")
+
+###  Set up pkgdown and githup
+usethis::use_github() # this create a repo on github
+pkgdown::build_site()
+pkgdown::init_site()      # copy logo to the right places
+pkgdown::build_favicons() # create favicons from the logo
+devtools::build_readme()  # update README.md after changes to the Rmd
+pkgdown::build_home()     # update home page
+usethis::use_lifecycle_badge("experimental") # add badge
 
 
 
+
+usethis::use_pkgdown()
+usethis::use_pkgdown_github_pages() # for github
+# add logo
+usethis::use_logo("inst/figures/logo.png")
 
 
 
@@ -55,10 +73,7 @@ usethis::use_test('calc_change')
  ### github setup
 usethis::use_github() # this create a repo on github
 
-### create vignettee
-usethis::use_vignette("UtilR")
-devtools::build_vignettes()
-browseURL("doc/UtilR.html")
+
 
 ###  Set up pkgdown
 #usethis::use_pkgdown()

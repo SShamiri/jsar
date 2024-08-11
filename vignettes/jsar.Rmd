@@ -1,0 +1,30 @@
+---
+title: "Overview of jsar"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Overview of jsar}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Installation
+
+You can install `jsar` from [GitHub](https://github.com) with:
+
+``` r
+devtools::install_github("SShamiri/jsar")
+```
+
+```{r setup}
+library(jsar)
+```
+
+## TODO
+write stuff here
