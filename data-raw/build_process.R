@@ -82,8 +82,8 @@ usethis::use_pkgdown_github_pages()
 pkgdown::build_site()
 
 # Install package
-devtools::install_github("FanWangEcon/PkgTestR")
-
+#devtools::install_github("FanWangEcon/PkgTestR")
+devtools::load_all()
 ### Initialize Git
 usethis::use_git(message = "Initial commit")
 
@@ -93,7 +93,7 @@ usethis::use_git(message = "Initial commit")
 # 3 Update URL fields in R package
 # 4 Commits and pushes local to remote
 # 5 Open up remote repo site: https://github.com/FanWangEcon/PkgTestR
-usethis::use_github(private = FALSE)
+#usethis::use_github(private = FALSE)
 
 ### Set up Github Actions
 usethis::use_github_action("pkgdown")
