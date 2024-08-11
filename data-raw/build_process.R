@@ -51,29 +51,64 @@ browseURL("doc/jsar.html")
 
 ###  Set up pkgdown and githup
 usethis::use_pkgdown()
-usethis::use_github() # this create a repo on github
+#usethis::use_github() # this create a repo on github
 pkgdown::build_site()
 usethis::use_pkgdown_github_pages() # for github
-pkgdown::init_site()      # copy logo to the right places
+#pkgdown::init_site()      # copy logo to the right places
 # add logo
 # first be sure the logo exist in the folder, see Other section 'logo'
 usethis::use_logo("inst/figures/logo.png")
-pkgdown::build_favicons() # create favicons from the logo
+pkgdown::build_favicons(overwrite = TRUE) # create favicons from the logo
 devtools::build_readme()  # update README.md after changes to the Rmd
 pkgdown::build_home()     # update home page
 usethis::use_lifecycle_badge("experimental") # add badge
 # add citation, see Other section 'citation' to fill CITATION file
 usethis::use_citation() # Once the file is updated
 citation("jsar")
+devtools::document()
 
 usethis::use_github_action()
 
 
+##################
+### Set up Git, Github Repository, and Github Actions
+# One time set-up with Git, Github, and Github Actions
+usethis::use_git(message = "Initial commit")
+usethis::use_github(private = FALSE)
+usethis::use_github_action("pkgdown")
+usethis::use_pkgdown_github_pages()
 
+# locally building site
+pkgdown::build_site()
 
+# Install package
+devtools::install_github("FanWangEcon/PkgTestR")
 
+### Initialize Git
+usethis::use_git(message = "Initial commit")
 
+### Connect to Github
+# 1 Creates a remote repo on github (under the authenticated account) with the same name as the local project folder name
+# 2 Set up remote
+# 3 Update URL fields in R package
+# 4 Commits and pushes local to remote
+# 5 Open up remote repo site: https://github.com/FanWangEcon/PkgTestR
+usethis::use_github(private = FALSE)
 
+### Set up Github Actions
+usethis::use_github_action("pkgdown")
+
+### Push and Create pkgdown Website
+usethis::use_pkgdown_github_pages()
+
+### Continuous Development
+# Once these are set up, then in the future, edit functions and vignette files,
+#test functions locally, and build site locally with pkgdown::build_site(),
+# whose outputs are stored in a gitignored folder and will not be pushed to the remote repo.
+# Update the .Rd files if .R files have been modified.
+devtools::document()
+# locally building site
+pkgdown::build_site()
 
 #################
 
