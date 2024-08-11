@@ -23,5 +23,5 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
-URL: https://github.com/SShamiri/jsar
+URL: https://github.com/SShamiri/jsar, https://sshamiri.github.io/jsar/
 BugReports: https://github.com/SShamiri/jsar/issues

@@ -53,6 +53,7 @@ browseURL("doc/jsar.html")
 usethis::use_pkgdown()
 usethis::use_github() # this create a repo on github
 pkgdown::build_site()
+usethis::use_pkgdown_github_pages() # for github
 pkgdown::init_site()      # copy logo to the right places
 # add logo
 # first be sure the logo exist in the folder, see Other section 'logo'
@@ -65,7 +66,7 @@ usethis::use_lifecycle_badge("experimental") # add badge
 usethis::use_citation() # Once the file is updated
 citation("jsar")
 
-
+usethis::use_github_action()
 
 
 
