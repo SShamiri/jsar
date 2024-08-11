@@ -38,3 +38,7 @@ If you encounter a bug or use a feature from the development version,
 please file an issue with a minimal reproducible example on GitHub. For
 questions and other discussion, please use
 `Data and Research community`.
+
+## How to contribute
+
+TODO
