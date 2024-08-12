@@ -25,14 +25,17 @@ Imports:
     dplyr,
     lubridate,
     magrittr,
-    tidyr
+    tidyr,
+    corrr,
+    tibble
 Depends: 
     R (>= 2.10)
 LazyData: true
 Suggests: 
     knitr,
     rmarkdown,
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    datasets
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 URL: https://github.com/SShamiri/jsar, https://sshamiri.github.io/jsar/

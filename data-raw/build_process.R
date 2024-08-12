@@ -31,24 +31,28 @@ usethis::use_package("dplyr")
 usethis::use_package("magrittr")
 usethis::use_package("lubridate")
 usethis::use_package("tidyr")
+usethis::use_package("corrr","Suggests")
 
 # doc
 usethis::use_r("lfs_state") # once modified run doc
 devtools::document()
 
 ### functions, testing and doc. goes together
+
 # 1- crearte function
 # 2- test function
 # 3- document the function if for the first time or made change's to the fun
 usethis::use_r("calc_change")
 devtools::document() # only for first-time or change in fun doc
+
+usethis::use_r("corr_df")
 # test
 usethis::use_testthat(3) # this done once for package, only for the first-time to create the folder
 usethis::use_test('calc_change')
 
 usethis::use_test('fuzzy_join_dates')
 
-
+usethis::use_test('corr_df')
 ### create vignettee
 usethis::use_vignette("jsar")
 devtools::build_vignettes()
@@ -144,18 +148,15 @@ df <- data.frame(date = seq(as.Date("2000/1/1"), by = "month", length.out = 5),
 library(hexSticker)
 
 imgurl <- "/Users/samuelshamiri/Downloads/jobs_skills_australia_logo.jpeg"
-sticker(imgurl,
-        package="jsar",
-        p_size=20,
-        s_x=1,
-        s_y=.75,
-        s_width=.4,
-        h_fill="#2f005f", h_color="#f39c12",
-        #dpi = 1000,
-        filename="inst/figures/logo.png")
-
-
-
+# sticker(imgurl,
+#         package="jsar",
+#         p_size=20,
+#         s_x=1,
+#         s_y=.75,
+#         s_width=.4,
+#         h_fill="#2f005f", h_color="#f39c12",
+#         #dpi = 1000,
+#         filename="inst/figures/logo.png")
 hexSticker::sticker(
   subplot = imgurl,
   # image
