@@ -3,7 +3,7 @@ pkgdown: 2.1.0
 pkgdown_sha: ~
 articles:
   jsar: jsar.html
-last_built: 2024-08-12T05:26Z
+last_built: 2024-08-12T05:46Z
 urls:
   reference: https://sshamiri.github.io/jsar/reference
   article: https://sshamiri.github.io/jsar/articles
