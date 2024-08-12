@@ -10,10 +10,10 @@
 #' @param len_hist The length of history to use in months. Ensures that the matching release dates are not too old. Defaults to 18 months.
 #'
 #' @return A dataframe that enables fuzzy date join.
-#' @export
 #'@import tidyr
 #'
 #' @examples
+#' library(dplyr)
 #' #data with release dates
 #' df <- lfs_state |>
 #'      group_by(anzsco1_code, date) |>
@@ -21,13 +21,15 @@
 #'
 #' # extraction dates
 #' e_dt <- as.Date(c("2016-08-09", "2021-08-10"))
-#'
+#' # look at 4 prior quarters
+#' n_qtr <- 4
 #' join_dates <- fuzzy_join_dates(
 #' e_dt,
 #' df$date,
 #' n = 3 * n_qtr,
 #' len_hist = (n_qtr + 1) * 12
 #' )
+#' @export
 fuzzy_join_dates <- function(extraction_date, release_date, n = 1, len_hist = 18) {
 
   # keep series original name

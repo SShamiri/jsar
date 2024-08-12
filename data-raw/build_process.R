@@ -69,7 +69,12 @@ usethis::use_citation() # Once the file is updated
 citation("jsar")
 devtools::document()
 
-usethis::use_github_action()
+### after changes
+devtools::document()
+devtools::load_all()
+
+pkgdown::build_site()
+pkgdown::build_home()
 
 
 ##################

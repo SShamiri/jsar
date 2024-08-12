@@ -22,6 +22,7 @@ A dataframe that enables fuzzy date join.
 Finds the n release dates immediately prior to the extraction date, release dates must be prior to extraction dates .
 }
 \examples{
+library(dplyr)
 #data with release dates
 df <- lfs_state |>
      group_by(anzsco1_code, date) |>
@@ -29,7 +30,8 @@ df <- lfs_state |>
 
 # extraction dates
 e_dt <- as.Date(c("2016-08-09", "2021-08-10"))
-
+# look at 4 prior quarters
+n_qtr <- 4
 join_dates <- fuzzy_join_dates(
 e_dt,
 df$date,
