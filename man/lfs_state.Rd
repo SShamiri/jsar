@@ -10,8 +10,8 @@ A data frame with 9,728 rows and 5 variables:
 \item{state_name}{Australian states}
 \item{anzsco1_code}{occupation major group of main job (ANZSCO) code}
 \item{anzsco1_name}{occupation major group of main job (ANZSCO) name}
-\item{date}{date}
-\item{emp}{employments in thousands}
+\item{date}{the reference date on which this data was measured, quarterly}
+\item{emp}{employed in thousands}
 }
 }
 \source{

@@ -30,6 +30,8 @@ usethis::use_data_raw("lfs_state")
 usethis::use_package("dplyr")
 usethis::use_package("magrittr")
 usethis::use_package("lubridate")
+usethis::use_package("tidyr")
+
 # doc
 usethis::use_r("lfs_state") # once modified run doc
 devtools::document()
@@ -110,7 +112,14 @@ devtools::document()
 # locally building site
 pkgdown::build_site()
 
-#################
+### Process for adding a new function to the repo
+#1- create a file with the function name into the ./R with
+usethis::use_r("fuzzy_join_dates")
+#2- update the document, run this whenever the documentation has changed
+devtools::document()
+#3- create a unit test for the function
+
+
 
 ######### Other ----
 ## testing

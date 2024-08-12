@@ -2,6 +2,8 @@
 
 export(calc_change)
 export(calc_change_per)
+export(fuzzy_join_dates)
 import(dplyr)
 import(lubridate)
+import(tidyr)
 importFrom(magrittr,"%>%")

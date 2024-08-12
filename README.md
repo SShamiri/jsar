@@ -32,6 +32,13 @@ You can install `jsar` from [GitHub](https://github.com) with:
 devtools::install_github("SShamiri/jsar")
 ```
 
+JSA teams can install `jsar` from [Azure
+DevOps](https://dev.azure.com/NationalSkillsCommission/JEDI/_git/jsar)
+
+``` r
+remotes::install_git("https://NationalSkillsCommission@dev.azure.com/NationalSkillsCommission/JEDI/_git/jsar", git = "external")
+```
+
 ## Getting help
 
 If you encounter a bug or use a feature from the development version,

@@ -7,8 +7,8 @@
 #'   \item{state_name}{Australian states}
 #'   \item{anzsco1_code}{occupation major group of main job (ANZSCO) code}
 #'   \item{anzsco1_name}{occupation major group of main job (ANZSCO) name}
-#'    \item{date}{date}
-#'    \item{emp}{employments in thousands}
+#'    \item{date}{the reference date on which this data was measured, quarterly}
+#'    \item{emp}{employed in thousands}
 #' }
 #' @source \url{https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/latest-release#labour-force-status}
 "lfs_state"

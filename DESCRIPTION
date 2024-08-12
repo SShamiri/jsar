@@ -1,8 +1,8 @@
 Package: jsar
 Date: 2024-08-01
-Title: Collection of useful R funtions JSA
+Title: Collection of useful R funtions
 Version: 0.1.0
-Authors@R:c(
+Authors@R: c(
     person(given = "Samuel",
            family = "Shamiri",
            role = c("aut","cre"),
@@ -20,11 +20,12 @@ Description: Collate R functions into a package for future use.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Imports: 
     dplyr,
     lubridate,
-    magrittr
+    magrittr,
+    tidyr
 Depends: 
     R (>= 2.10)
 LazyData: true
