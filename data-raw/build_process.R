@@ -149,10 +149,28 @@ sticker(imgurl,
         p_size=20,
         s_x=1,
         s_y=.75,
-        s_width=.5,
+        s_width=.4,
         h_fill="#2f005f", h_color="#f39c12",
         #dpi = 1000,
         filename="inst/figures/logo.png")
+
+
+
+hexSticker::sticker(
+  subplot = imgurl,
+  # image
+  s_x = 1, s_y = 1, s_width = 0.4, s_height = 0.3,
+  # packageName
+  package = "jsar",
+  p_size = 20, p_x = 1, p_y = 1.6, p_color = "white",
+  # hex
+  h_size = 1.2, h_fill = "#2f005f", h_color = "#f39c12",
+  dpi = 320,
+  filename = "inst/figures/logo.png"
+)
+
+
+
 
 ## Citation
 meta <- packageDescription("jsar")
