@@ -37,6 +37,14 @@ fuzzy_join_dates <- function(extraction_date, release_date, n = 1, len_hist = 18
   r_date_name <- sub('.*\\$', '', substitute(release_date))[length(sub('.*\\$', '',substitute(release_date)))]
   org_names <- c(e_date_name, r_date_name)
 
+  # is date
+  if(!is.Date(extraction_date)) {
+    stop(paste0(e_date_name," must be of class Date"))
+  }
+  if(!is.Date(release_date)) {
+    stop(paste0(r_date_name," must be of class Date"))
+  }
+
   # extract unique dates
   extraction_date <- unique(extraction_date)
   release_date <- unique(release_date)

@@ -46,6 +46,9 @@ devtools::document() # only for first-time or change in fun doc
 usethis::use_testthat(3) # this done once for package, only for the first-time to create the folder
 usethis::use_test('calc_change')
 
+usethis::use_test('fuzzy_join_dates')
+
+
 ### create vignettee
 usethis::use_vignette("jsar")
 devtools::build_vignettes()
