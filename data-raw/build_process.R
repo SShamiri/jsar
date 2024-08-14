@@ -76,7 +76,7 @@ usethis::use_citation() # Once the file is updated
 citation("jsar")
 devtools::document()
 
-### after changes
+# After Changes Do: -----------------------------------------------------------
 devtools::document()
 devtools::load_all()
 
@@ -133,7 +133,7 @@ devtools::document()
 
 
 
-######### Other ----
+# Other ------------------------------------------------------------------------
 ## testing
  lfs_state %>%
  group_by(date) %>%
@@ -144,35 +144,54 @@ devtools::document()
 
 df <- data.frame(date = seq(as.Date("2000/1/1"), by = "month", length.out = 5),
            col = runif(5, min = 2, max = 20))
-## Logo
-library(hexSticker)
 
-imgurl <- "/Users/samuelshamiri/Downloads/jobs_skills_australia_logo.jpeg"
-# sticker(imgurl,
-#         package="jsar",
-#         p_size=20,
-#         s_x=1,
-#         s_y=.75,
-#         s_width=.4,
-#         h_fill="#2f005f", h_color="#f39c12",
-#         #dpi = 1000,
-#         filename="inst/figures/logo.png")
-hexSticker::sticker(
-  subplot = imgurl,
-  # image
-  s_x = 1, s_y = 1, s_width = 0.4, s_height = 0.3,
-  # packageName
-  package = "jsar",
-  p_size = 20, p_x = 1, p_y = 1.6, p_color = "white",
-  # hex
-  h_size = 1.2, h_fill = "#2f005f", h_color = "#f39c12",
-  dpi = 320,
-  filename = "inst/figures/logo.png"
+
+# Logo Prosess----------------------------
+library(magick)
+library(hexSticker)
+library(showtext)
+
+## Loading Google fonts (http://www.google.com/fonts)
+#font_add_google("Gochi Hand", "gochi", "Play")
+font_add_google("Play")
+## Automatically use showtext to render text for future devices
+showtext_auto()
+
+koala <- image_read("/Users/samuelshamiri/Downloads/koala_pink.png")
+print(koala)
+
+koala <- image_flop(koala)
+koala <- image_crop(koala)
+
+hexSticker::sticker(koala,
+        # package
+        package="jsar", p_size=22,
+        # image
+        s_x=.85, s_y=.85, s_width=1.2, s_height=1.5,
+        #hex
+        h_fill="#5f005f", h_color="#5f005f",
+        # font
+        p_family = "Play",
+        #url
+        # url = "Collection of R function", u_x = 1.05,
+        # u_y = 0.1, u_size = 6, u_angle = 30, u_color = "white",
+        filename="inst/figures/logo.png"
 )
 
+#imgurl <- "/Users/samuelshamiri/Downloads/jobs_skills_australia_logo.jpeg"
+# hexSticker::sticker(
+#   subplot = imgurl,
+#   # image
+#   s_x = 1, s_y = 1, s_width = 0.4, s_height = 0.3,
+#   # packageName
+#   package = "jsar",
+#   p_size = 20, p_x = 1, p_y = 1.6, p_color = "white",
+#   # hex
+#   h_size = 1.2, h_fill = "#2f005f", h_color = "#f39c12",
+#   dpi = 320,
+#   filename = "inst/figures/logo.png"
+# )
 
-
-
-## Citation
+# Citation --------------------------------
 meta <- packageDescription("jsar")
 names(meta)
