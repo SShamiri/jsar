@@ -1,0 +1,10 @@
+# The CODEOWNERS file specifies the users responsible for code in the repository.
+# Each line is a pattern followed by one or more GitHub usernames or teams.
+
+# The * pattern covers all files in the repository.
+* @SShamiri
+
+# You can also assign ownership to specific files or directories.
+# For example, the following line assigns ownership of the docs/ directory to SShamiri.
+
+# docs/ @SShamiri
