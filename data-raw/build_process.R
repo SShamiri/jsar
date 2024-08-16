@@ -32,6 +32,7 @@ usethis::use_package("magrittr")
 usethis::use_package("lubridate")
 usethis::use_package("tidyr")
 usethis::use_package("corrr","Suggests")
+usethis::use_package("ggplot2")
 
 # doc
 usethis::use_r("lfs_state") # once modified run doc

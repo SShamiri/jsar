@@ -5,10 +5,32 @@
 #' @param n how many colours from it we want to use
 #' @param type discrete or continuous colour palette
 #'
-#' @return
+#' @return colour palette
 #' @export
 #'
+#' @importFrom ggplot2 scale_colour_manual scale_fill_manual scale_colour_gradientn scale_fill_gradientn
 #' @examples
+#' library(ggplot2)
+#'
+#' df <- data.frame(
+#' x = c("A", "B", "C", "D"),
+#' y = 1:4
+#' )
+#'
+#' g <- ggplot(
+#'  data = df,
+#'  mapping = aes(x = x, y = y)
+#'  ) +
+#' theme_minimal() +
+#'  theme(
+#'    legend.position = c(0.05, 0.95),
+#'    legend.justification = c(0, 1),
+#'    legend.title = element_blank(),
+#'    axis.title = element_blank()
+#'  )
+#'
+#'
+#'
 jsa_palettes <- function(name, n,
                          all_palettes = jsa_colours,
                          type = c("discrete", "continuous")) {

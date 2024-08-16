@@ -1,6 +1,6 @@
 # Process for adding a function ================================================
 # 1- create function ------------------------------
-usethis::use_r("nth_weekday_in_mth")
+usethis::use_r("jsa_palettes")
 # a- this will open R/nth_weekday_in_mth.r
 # b- copy in or write the function
 # c- Once fun is written, put mouse cursor anywhere in the fun then go to
