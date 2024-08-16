@@ -11,11 +11,11 @@ Authors@R: c(
     person(given = "Johann",
            family = "Wagner",
            role = c("aut"),
-           email = "wagner.johann@jobsandskills.gov.au"),
+           email = "johann.wagner@jobsandskills.gov.au"),
     person(given = "Justin",
            family = "Nguyen",
            role = c("aut"),
-           email = "nguyen.justin@jobsandskills.gov.au"))
+           email = "justin.nguyen@jobsandskills.gov.au"))
 Description: Collate R functions into a package for future use.
 License: MIT + file LICENSE
 Encoding: UTF-8
