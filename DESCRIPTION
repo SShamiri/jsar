@@ -28,7 +28,11 @@ Imports:
     tidyr,
     corrr,
     tibble,
-    ggplot2
+    ggplot2,
+    broom,
+    purrr,
+    stats,
+    methods
 Depends: 
     R (>= 2.10)
 LazyData: true
