@@ -18,11 +18,10 @@ dataframe of compared models and list for individual models
 Comparing models
 }
 \examples{
-load(daimend)
 
 mod1 <- lm(Volume ~ Girth + Height, data = datasets::trees)
 mod2 <- lm(Volume ~ Girth , data = datasets::trees)
 # Comparing models
-compare_lm(list(mod1, mod2))$compare
-compare_lm(mod2)
+compare_models(list(mod1, mod2))$compare
+compare_models(mod2)
 }
