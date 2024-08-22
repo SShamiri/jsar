@@ -10,7 +10,7 @@
 #' @param len_hist The length of history to use in months. Ensures that the matching release dates are not too old. Defaults to 18 months.
 #'
 #' @return A dataframe that enables fuzzy date join.
-#'@import tidyr
+#'@importFrom tidyr crossing
 #'
 #' @examples
 #' library(dplyr)
@@ -50,7 +50,7 @@ fuzzy_join_dates <- function(extraction_date, release_date, n = 1, len_hist = 18
   release_date <- unique(release_date)
 
   # Find the corresponding dates to join on
-  df <- crossing(extraction_date, release_date) %>%
+  df <- tidyr::crossing(extraction_date, release_date) %>%
     filter(
       # Release must be prior to extraction
       extraction_date >= release_date,
