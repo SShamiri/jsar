@@ -50,53 +50,85 @@
 
 
 <dl><dt id="arg-models">models<a class="anchor" aria-label="anchor" href="#arg-models"></a></dt>
-<dd><p>an object containing the results returned by a model fitting function. Supported models are 'lm' &amp; 'sfa', put multiple models in list</p></dd>
+<dd><p>A statistical model object or a list of statistical model objects. Lists of models can be specified as
+models = list(model.1, model.2, ...). Different object types can also be mixed.</p></dd>
 
 
 <dt id="arg-model-names">model_names<a class="anchor" aria-label="anchor" href="#arg-model-names"></a></dt>
-<dd><p>vector of model names as string</p></dd>
+<dd><p>A character vector of labels for the model names. By default,
+the models are named "mod_1", "mod_2", etc. Specifying model_names = c("Model name 1", "Model name 2") etc. overrides the default behavior.</p></dd>
 
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
-    <p>dataframe of compared models and list for individual models</p>
+    <p>A dataframe of compared models for easy model comparison</p>
     </div>
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span></span></span>
-<span class="r-in"><span><span class="va">mod1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/lm.html" class="external-link">lm</a></span><span class="op">(</span><span class="va">Volume</span> <span class="op">~</span> <span class="va">Girth</span> <span class="op">+</span> <span class="va">Height</span>, data <span class="op">=</span> <span class="fu">datasets</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/r/datasets/trees.html" class="external-link">trees</a></span><span class="op">)</span></span></span>
-<span class="r-in"><span><span class="va">mod2</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/lm.html" class="external-link">lm</a></span><span class="op">(</span><span class="va">Volume</span> <span class="op">~</span> <span class="va">Girth</span> , data <span class="op">=</span> <span class="fu">datasets</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/r/datasets/trees.html" class="external-link">trees</a></span><span class="op">)</span></span></span>
-<span class="r-in"><span><span class="co"># Comparing models</span></span></span>
-<span class="r-in"><span><span class="fu">compare_models</span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="va">mod1</span>, <span class="va">mod2</span><span class="op">)</span><span class="op">)</span><span class="op">$</span><span class="va">compare</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>          term               mod_1               mod_2</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1 (Intercept) -57.9877(8.6382)*** -36.9435(3.3651)***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2       Girth   4.7082(0.2643)***   5.0659(0.2474)***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3      Height    0.3393(0.1302)**                    </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4         rsq               0.948              0.9353</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5     adj_rsq              0.9442              0.9331</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6      f_stat         254.9723***         419.3603***</span>
-<span class="r-in"><span><span class="fu">compare_models</span><span class="op">(</span><span class="va">mod2</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $compare</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>          term               mod_1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1 (Intercept) -36.9435(3.3651)***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2       Girth   5.0659(0.2474)***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3         rsq              0.9353</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4     adj_rsq              0.9331</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5      f_stat         419.3603***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $models</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $models[[1]]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 5 × 7</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   term        estimate std.error statistic p.value sig   model         </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>          <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>     <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>     <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> (Intercept)  -<span style="color: #BB0000;">36.9</span>       3.37      -<span style="color: #BB0000;">11.0</span>       0 <span style="color: #949494;">"</span>***<span style="color: #949494;">"</span> Volume ~ Girth</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> Girth          5.07      0.247      20.5       0 <span style="color: #949494;">"</span>***<span style="color: #949494;">"</span> Volume ~ Girth</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> rsq            0.935    <span style="color: #BB0000;">NA</span>          <span style="color: #BB0000;">NA</span>        <span style="color: #BB0000;">NA</span> <span style="color: #949494;">""</span>    Volume ~ Girth</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> adj_rsq        0.933    <span style="color: #BB0000;">NA</span>          <span style="color: #BB0000;">NA</span>        <span style="color: #BB0000;">NA</span> <span style="color: #949494;">""</span>    Volume ~ Girth</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> f_stat       419.       <span style="color: #BB0000;">NA</span>          <span style="color: #BB0000;">NA</span>         0 <span style="color: #949494;">"</span>***<span style="color: #949494;">"</span> Volume ~ Girth</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://cran.r-project.org/package=plm" class="external-link">plm</a></span><span class="op">)</span></span></span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> Attaching package: ‘plm’</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> The following objects are masked from ‘package:dplyr’:</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span>     between, lag, lead</span>
+<span class="r-in"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org" class="external-link">dplyr</a></span><span class="op">)</span></span></span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">worldprod</span>, package <span class="op">=</span> <span class="st">'jsar'</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="va">countries</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"Australia"</span>, <span class="st">"singapore"</span>, <span class="st">"china"</span>, <span class="st">"uk"</span><span class="op">)</span></span></span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="co"># comparison with same model (lm) for each country</span></span></span>
+<span class="r-in"><span><span class="va">lm_models</span> <span class="op">&lt;-</span> <span class="va">worldprod</span> <span class="op">|&gt;</span></span></span>
+<span class="r-in"><span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">country_name</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="va">countries</span><span class="op">)</span> <span class="op">|&gt;</span></span></span>
+<span class="r-in"><span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html" class="external-link">group_by</a></span><span class="op">(</span><span class="va">country_name</span><span class="op">)</span> <span class="op">|&gt;</span></span></span>
+<span class="r-in"><span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_map.html" class="external-link">group_map</a></span><span class="op">(</span><span class="op">~</span> <span class="fu"><a href="https://rdrr.io/r/stats/lm.html" class="external-link">lm</a></span><span class="op">(</span><span class="va">log_gdp</span> <span class="op">~</span> <span class="va">log_capital</span> <span class="op">+</span> <span class="va">log_labour</span> , data <span class="op">=</span> <span class="va">.x</span><span class="op">)</span><span class="op">)</span></span></span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="fu">compare_models</span><span class="op">(</span><span class="va">lm_models</span>, model_names <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="st">'lm_'</span>,<span class="va">countries</span><span class="op">)</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 7 × 5</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   term        lm_Australia  lm_singapore  lm_china      lm_uk        </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> (Intercept) -0.518(0.177) -9.019(3.665) 0.754(0.127)  -0.462(1.091)</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> log_capital 1.36(0.174)   0.379(0.376)  0.346(0.097)* 0.51(0.027)**</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> log_labour  -1.297(0.412) 1.828(0.921)  1.139(0.445)  0.862(0.351) </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> ####        ####          ####          ####          ####         </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> R$^2$       0.996         0.94          0.996         0.986        </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> Adj. R$^2$  0.995         0.935         0.995         0.985        </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">7</span> Num. obs.   28            28            28            28           </span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="co"># or with piping</span></span></span>
+<span class="r-in"><span><span class="va">worldprod</span> <span class="op">|&gt;</span></span></span>
+<span class="r-in"><span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">country_name</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="va">countries</span><span class="op">)</span> <span class="op">|&gt;</span></span></span>
+<span class="r-in"><span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html" class="external-link">group_by</a></span><span class="op">(</span><span class="va">country_name</span><span class="op">)</span> <span class="op">|&gt;</span></span></span>
+<span class="r-in"><span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_map.html" class="external-link">group_map</a></span><span class="op">(</span><span class="op">~</span> <span class="fu"><a href="https://rdrr.io/r/stats/lm.html" class="external-link">lm</a></span><span class="op">(</span><span class="va">log_gdp</span> <span class="op">~</span> <span class="va">log_capital</span> <span class="op">+</span> <span class="va">log_labour</span> , data <span class="op">=</span> <span class="va">.x</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span></span>
+<span class="r-in"><span>  <span class="fu">compare_models</span><span class="op">(</span> model_names <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="st">'lm_'</span>,<span class="va">countries</span><span class="op">)</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 7 × 5</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   term        lm_Australia  lm_singapore  lm_china      lm_uk        </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> (Intercept) -0.518(0.177) -9.019(3.665) 0.754(0.127)  -0.462(1.091)</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> log_capital 1.36(0.174)   0.379(0.376)  0.346(0.097)* 0.51(0.027)**</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> log_labour  -1.297(0.412) 1.828(0.921)  1.139(0.445)  0.862(0.351) </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> ####        ####          ####          ####          ####         </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> R$^2$       0.996         0.94          0.996         0.986        </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> Adj. R$^2$  0.995         0.935         0.995         0.985        </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">7</span> Num. obs.   28            28            28            28           </span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="va">lm_model</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/lm.html" class="external-link">lm</a></span><span class="op">(</span><span class="va">log_gdp</span> <span class="op">~</span> <span class="va">log_capital</span> <span class="op">+</span> <span class="va">log_labour</span>, data <span class="op">=</span> <span class="va">worldprod</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="va">plm_model</span> <span class="op">&lt;-</span> <span class="fu">plm</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/plm/man/plm.html" class="external-link">plm</a></span><span class="op">(</span><span class="va">log_gdp</span> <span class="op">~</span> <span class="va">log_capital</span> <span class="op">+</span> <span class="va">log_labour</span> ,</span></span>
+<span class="r-in"><span>                      model <span class="op">=</span> <span class="st">'within'</span>, index <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'country_name'</span>, <span class="st">'year'</span><span class="op">)</span>,</span></span>
+<span class="r-in"><span>                      data <span class="op">=</span> <span class="va">worldprod</span><span class="op">)</span></span></span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="fu">compare_models</span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="va">lm_model</span>, <span class="va">plm_model</span><span class="op">)</span>,model_names <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'Pool'</span>, <span class="st">'Panel'</span><span class="op">)</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 7 × 3</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   term        Pool            Panel         </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>           <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> (Intercept) -0.577(0.016)** -             </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> log_capital 0.862(0.005)*** 0.586(0.011)**</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> log_labour  0.137(0.007)*** 0.291(0.028)**</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> ####        ####            ####          </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> R$^2$       0.963           0.89          </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> Adj. R$^2$  0.963           0.886         </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">7</span> Num. obs.   2296            2296          </span>
+<span class="r-in"><span></span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
