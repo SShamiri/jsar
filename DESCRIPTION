@@ -25,14 +25,14 @@ Imports:
     dplyr,
     lubridate,
     magrittr,
+    texreg,
     tidyr,
     corrr,
     tibble,
     ggplot2,
-    broom,
-    purrr,
     stats,
-    methods
+    plm,
+    purrr
 Depends: 
     R (>= 2.10)
 LazyData: true

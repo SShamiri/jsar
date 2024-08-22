@@ -7,6 +7,7 @@
 #' @import corrr
 #' @importFrom stats cor cor.test
 #' @importFrom tibble rownames_to_column
+#' @importFrom tidyr drop_na pivot_wider replace_na
 #'
 #' @examples
 #'
@@ -15,24 +16,24 @@
 #' @export
 corr_df <- function(data){
   #binding variables to NULL
-   r <- p_value <- sig <- y <- NULL
+   r <- p_value <- sig <- y <- x <-  NULL
   # only numeric columns are selected
   data <- select_if(data, is.numeric)
   # stop if no numeric columns
   if(ncol(data) < 2) stop("The dataframe must at least has 2 numeric columns")
   ## correlation data
   corr_df <- data %>%
-    correlate() %>%
+    correlate(method = "pearson") %>%
     stretch() %>%
     mutate(across(where(is.numeric), round,3)) %>%
     rename(cor = r) %>%
-    drop_na()
+    tidyr::drop_na()
   # # p-value for the correlation
   p_df <- colpair_map(data,cor_p_value) %>%
     mutate(across(where(is.numeric), round,4)) %>%
     stretch() %>%
     rename(p_value = r) %>%
-    drop_na() %>%
+    tidyr::drop_na() %>%
     mutate(
       sig = case_when(
         p_value < 0.01 ~ "***",
@@ -42,11 +43,11 @@ corr_df <- function(data){
     )
   # df
   out_df <- corr_df %>%
-    left_join(p_df) %>%
+    left_join(p_df, by = join_by(x, y)) %>%
     mutate_if(is.character, ~replace_na(., "")) %>%
     mutate(r = paste0(cor, "(", p_value,")",sig)) %>%
     select(-cor, -p_value, -sig ) %>%
-    pivot_wider(values_from= r, names_from=y)
+    tidyr::pivot_wider(values_from= r, names_from=y)
   # get upper tringle
   mat <- as.data.frame(out_df)
   rownames(mat) <- mat[,1]

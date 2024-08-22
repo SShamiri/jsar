@@ -32,3 +32,41 @@ lfs_state <- dat %>%
 
 
 usethis::use_data(lfs_state, overwrite = TRUE)
+
+## ######################### worldprod data
+library(sfaR)
+data(worldprod)
+
+worldprod <- worldprod |>
+  as_tibble() |>
+  rename(country_name = country, country_id = code, year = yr, gdp = y,capital = k, log_gdp = ly,
+         labour = l, h_capital = h, log_capital = lk, log_labour = ll, log_h = lh, initstat = initStat)
+
+coldesc <- rep("", ncol(worldprod))
+names(coldesc) <- names(worldprod)
+dput(coldesc)
+
+# Copy and paste the output into your script and assign this to an object called vars
+vars <- c(country_name = "Country name",
+          country_id = "Country identification",
+          year = "Year identification",
+          gdp = "GDP in 1987 U.S.dollars",
+          capital = "Physical capital stock in 1987 U.S. dollars",
+          labour = "Labour (number of individuals in the workforce between the age of15 and 64)",
+          h_capital = "Human capital adjusted labour",
+          log_gdp = "Log GDP",
+          log_capital = "Log capital",
+          log_labour = "Log labour",
+          log_h = "Log human capital",
+          initstat = "Log of the initial capital to labor ratio of each country, log_capital - labour, measured at the beginning of the sample period"
+          )
+glue::glue("#'   \\item{[colname]}{[coldesc]}",
+           colname = names(vars),
+           coldesc = vars,
+           .open = "[",
+           .close = "]")
+
+usethis::use_r("worldprod") # once modified run doc
+devtools::document()
+usethis::use_data(worldprod, overwrite = TRUE)
+
