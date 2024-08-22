@@ -37,6 +37,8 @@ usethis::use_package("broom")
 usethis::use_package("purrr")
 usethis::use_package("stats")
 usethis::use_package("methods")
+usethis::use_package("texreg")
+usethis::use_package("plm","Suggests")
 
 # doc
 usethis::use_r("lfs_state") # once modified run doc

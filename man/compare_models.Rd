@@ -7,21 +7,45 @@
 compare_models(models, model_names = NULL)
 }
 \arguments{
-\item{models}{an object containing the results returned by a model fitting function. Supported models are 'lm' & 'sfa', put multiple models in list}
+\item{models}{A statistical model object or a list of statistical model objects. Lists of models can be specified as
+models = list(model.1, model.2, ...). Different object types can also be mixed.}
 
-\item{model_names}{vector of model names as string}
+\item{model_names}{A character vector of labels for the model names. By default,
+the models are named "mod_1", "mod_2", etc. Specifying model_names = c("Model name 1", "Model name 2") etc. overrides the default behavior.}
 }
 \value{
-dataframe of compared models and list for individual models
+A dataframe of compared models for easy model comparison
 }
 \description{
 Comparing models
 }
 \examples{
+library(plm)
+library(dplyr)
 
-mod1 <- lm(Volume ~ Girth + Height, data = datasets::trees)
-mod2 <- lm(Volume ~ Girth , data = datasets::trees)
-# Comparing models
-compare_models(list(mod1, mod2))$compare
-compare_models(mod2)
+data(worldprod, package = 'jsar')
+countries <- c("Australia", "singapore", "china", "uk")
+
+# comparison with same model (lm) for each country
+lm_models <- worldprod |>
+  filter(country_name \%in\% countries) |>
+  group_by(country_name) |>
+  group_map(~ lm(log_gdp ~ log_capital + log_labour , data = .x))
+
+compare_models(lm_models, model_names = paste0('lm_',countries))
+
+# or with piping
+worldprod |>
+  filter(country_name \%in\% countries) |>
+  group_by(country_name) |>
+  group_map(~ lm(log_gdp ~ log_capital + log_labour , data = .x)) |>
+  compare_models( model_names = paste0('lm_',countries))
+
+lm_model <- lm(log_gdp ~ log_capital + log_labour, data = worldprod)
+plm_model <- plm::plm(log_gdp ~ log_capital + log_labour ,
+                      model = 'within', index = c('country_name', 'year'),
+                      data = worldprod)
+
+compare_models(list(lm_model, plm_model),model_names = c('Pool', 'Panel'))
+
 }
