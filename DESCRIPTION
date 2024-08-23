@@ -32,7 +32,8 @@ Imports:
     ggplot2,
     stats,
     plm,
-    purrr
+    purrr,
+    methods
 Depends: 
     R (>= 2.10)
 LazyData: true
