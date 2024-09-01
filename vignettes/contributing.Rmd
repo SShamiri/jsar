@@ -25,11 +25,52 @@ Check out the [issue section](https://github.com/SShamiri/jsar/issues) to find f
 If you’ve found a bug, first illustrate the bug with a minimal example. Then file it on the GitHub repo of the [issue section](https://github.com/SShamiri/jsar/issues).
 
 ## Contribute documentation 
-Documentation is a high priority for jsar and pull requests to correct or improve documentation are welcome. The most important thing to know is that `jsar` packages use `roxygen2`; this means that documentation is found in the R code close to the source of each function. 
+Documentation is a high priority for jsar and pull requests to correct or improve documentation are welcome. The most important thing to know is that `jsar` packages use `roxygen2`; this means that documentation is found in the R code close to the source of each function. To write an article:
+```r
+# 1- create article in the vignette folder ---------
+usethis::use_vignette("new_article")
+# update the file new_article.Rmd with contents
+
+# 2- Once finished. Do the following
+devtools::document()
+devtools::load_all()
+pkgdown::build_site()
+
+# 3- Submit a pull request
+```
 
 ## Contribute code 
-If you are a more experienced programmer, you might want to help out with the package development. Before you do a pull request, you should always file an issue and make sure someone from the `jsar` team agrees that it’s a problem, and is happy with your basic proposal for fixing it. We don’t want you to spend a bunch of time on something that we don’t think is a good idea.
+If you are a more experienced programmer, you might want to help out with the package development. Before you do a pull request, you should always file an issue and make sure someone from the `jsar` team agrees that it’s a problem, and is happy with your basic proposal for fixing it. We don’t want you to spend a bunch of time on something that we don’t think is a good idea. To add a function:
 
+```r
+# 1- create function -----------
+usethis::use_r("function_name")
+
+# a- this will open R/function_name.r
+# b- copy in or write the function
+# c- Once fun is written, put mouse cursor anywhere in the fun then go to
+     # code -> Inset Roxyegen skeleton
+# d- fill in the required fields
+# e- check for errors 
+devtool::check()
+
+# 2- document the function --------
+devtools::document() # execute this each time change occur
+
+# 3- test function ----------------
+usethis::use_test('function_name')
+# create unit tests in the file tests/testthat/function_name.R
+# frequently check the results as you progress with
+devtools::test()
+devtools::check()
+
+# 4- Once finished. Do the following
+devtools::document()
+devtools::load_all()
+pkgdown::build_site()
+
+# 5- Submit a pull request
+```
 
 ## Contribute idea
 Don’t let impostor syndrome hold you back! Every suggestion and opinion is valuable. Even if it’s just a thought, your feedback is always welcome. Go to the [issue section](https://github.com/SShamiri/jsar/issues) and to add your idea.
