@@ -39,6 +39,9 @@ usethis::use_package("stats")
 usethis::use_package("methods")
 usethis::use_package("texreg")
 usethis::use_package("plm","Suggests")
+usethis::use_package("readxl")
+usethis::use_package("stringi") # check if this package can be replaced with stringr
+
 
 # doc
 usethis::use_r("lfs_state") # once modified run doc

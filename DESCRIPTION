@@ -33,7 +33,9 @@ Imports:
     stats,
     plm,
     purrr,
-    methods
+    methods,
+    readxl,
+    stringi
 Depends: 
     R (>= 2.10)
 LazyData: true
