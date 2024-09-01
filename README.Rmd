@@ -34,8 +34,6 @@ JSA teams can install `jsar` from [Azure DevOps](https://dev.azure.com/NationalS
 remotes::install_git("https://NationalSkillsCommission@dev.azure.com/NationalSkillsCommission/JEDI/_git/jsar", git = "external")
 ```
 
-## Getting help
-If you encounter a bug or use a feature from the development version, please file an issue with a minimal reproducible example on GitHub. For questions and other discussion, please use `Data and Research community`. 
-
 ## How to contribute
-TODO
+To contribute, first fork the repository to your own account. This creates a copy where you can make changes without affecting the original. Next, clone your forked repository to your local machine. Create a new branch to isolate your changes, and make the necessary modifications. Commit your changes with clear descriptions, then push them to your forked repository. Finally, submit a pull request to the original repository, explaining your changes and addressing any potential concerns. For more details visit [contributing guide](https://sshamiri.github.io/jsar/articles/contributing.html)
+
