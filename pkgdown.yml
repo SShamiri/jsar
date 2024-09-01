@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   contributing: contributing.html
   jsar: jsar.html
-last_built: 2024-09-01T08:12Z
+last_built: 2024-09-01T12:13Z
 urls:
   reference: https://sshamiri.github.io/jsar/reference
   article: https://sshamiri.github.io/jsar/articles
